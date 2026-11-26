@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: #f7f5ef;
+  --color-desk: #e9e6dc;
+  --color-card: #ffffff;
+  --color-ink: #1d2a24;
+  --color-muted: #5d6a63;
+  --color-line: #dcd9cd;
+  --color-leaf: #1c6a4e;
+  --color-leaf-dark: #14503a;
+  --color-leaf-soft: #e0efe7;
+  --color-amber-soft: #fbefd3;
+  --color-amber-ink: #7a4d00;
+  --color-danger-soft: #fbe6e1;
+  --color-danger-ink: #9a2f17;
+  --font-sans:
+    Pretendard, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR",
+    system-ui, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-desk);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+button,
+label[role="button"],
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-leaf);
+  outline-offset: 2px;
+}

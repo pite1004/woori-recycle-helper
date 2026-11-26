@@ -1,0 +1,16 @@
+[
+  {
+    "code": "incheon-michuhol",
+    "name": "인천 미추홀구",
+    "contactName": "미추홀구 폐기물 문의 대표번호",
+    "contactPhone": "1844-1652",
+    "contactUrl": "https://www.michuhol.go.kr/main/content.do?sq=443"
+  },
+  {
+    "code": "incheon-yeonsu",
+    "name": "인천 연수구",
+    "contactName": "연수구청 청소행정과 자원순환팀",
+    "contactPhone": "032-749-7852",
+    "contactUrl": "https://www.yeonsu.go.kr/main/part/clean/house.asp"
+  }
+]
