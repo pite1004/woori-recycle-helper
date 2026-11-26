@@ -1,7 +1,7 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useState } from "react";
 import ItemPicker from "@/components/ItemPicker";
 import QuestionFlow from "@/components/QuestionFlow";
 import { getRecognition } from "@/lib/client-ai";
@@ -10,9 +10,21 @@ import { guideHref } from "@/lib/flow";
 import type { Item } from "@/lib/types";
 
 export default function IdentifyPage() {
+  return (
+    <Suspense>
+      <IdentifyView />
+    </Suspense>
+  );
+}
+
+function IdentifyView() {
   const router = useRouter();
-  const [recognition] = useState(getRecognition);
-  const [itemId, setItemId] = useState<string | null>(null);
+  // 홈의 '자주 버리는 물건'에서 들어오면 ?item=으로 품목을 미리 고른다
+  const preset = useSearchParams().get("item");
+  const [recognition] = useState(() => (preset ? null : getRecognition()));
+  const [itemId, setItemId] = useState<string | null>(() =>
+    preset && getItem(preset) ? preset : null,
+  );
   const [searching, setSearching] = useState(false);
 
   const candidates = (recognition?.candidates ?? [])

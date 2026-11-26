@@ -3172,5 +3172,2263 @@
     "sourceTitle": "연수구 대형폐기물 품목별 수수료",
     "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
     "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-electric-kettle-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "electric-kettle",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-electric-kettle-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "electric-kettle",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-hair-dryer-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "hair-dryer",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-hair-dryer-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "hair-dryer",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-fan-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "fan",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-fan-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "fan",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-rice-cooker-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "rice-cooker",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-rice-cooker-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "rice-cooker",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-phone-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "phone",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요.",
+      "안 쓰는 휴대폰은 E-순환거버넌스 「나눔폰」으로 기부할 수도 있어요(문의 1899-7047)."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-phone-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "phone",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요.",
+      "안 쓰는 휴대폰은 E-순환거버넌스 「나눔폰」으로 기부할 수도 있어요(문의 1899-7047)."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-phone-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "phone",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요.",
+      "안 쓰는 휴대폰은 E-순환거버넌스 「나눔폰」으로 기부할 수도 있어요(문의 1899-7047)."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-phone-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "phone",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요.",
+      "안 쓰는 휴대폰은 E-순환거버넌스 「나눔폰」으로 기부할 수도 있어요(문의 1899-7047)."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-phone-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "phone",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요.",
+      "안 쓰는 휴대폰은 E-순환거버넌스 「나눔폰」으로 기부할 수도 있어요(문의 1899-7047)."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-phone-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "phone",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요.",
+      "안 쓰는 휴대폰은 E-순환거버넌스 「나눔폰」으로 기부할 수도 있어요(문의 1899-7047)."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-laptop-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "laptop",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-laptop-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "laptop",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-laptop-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "laptop",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-laptop-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "laptop",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-laptop-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "laptop",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-laptop-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "laptop",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-tablet-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "tablet",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-tablet-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "tablet",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-tablet-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "tablet",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-tablet-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "tablet",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-tablet-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "tablet",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-tablet-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "tablet",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-monitor-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "monitor",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-monitor-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "monitor",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-monitor-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "monitor",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-monitor-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "monitor",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-monitor-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "monitor",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-monitor-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "monitor",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-vacuum-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "vacuum",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-vacuum-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "vacuum",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-vacuum-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "vacuum",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-vacuum-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "vacuum",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-vacuum-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "vacuum",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-vacuum-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "vacuum",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-printer-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "printer",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-printer-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "printer",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-printer-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "printer",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-printer-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "printer",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-printer-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "printer",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-printer-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "printer",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-shaver-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "shaver",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-shaver-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "shaver",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-shaver-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "shaver",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-shaver-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "shaver",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-shaver-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "shaver",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-shaver-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "shaver",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-game-console-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "game-console",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-game-console-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "game-console",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-game-console-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "game-console",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-game-console-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "game-console",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-game-console-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "game-console",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-game-console-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "game-console",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-keyboard-mouse-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "keyboard-mouse",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-keyboard-mouse-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "keyboard-mouse",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-keyboard-mouse-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "keyboard-mouse",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-keyboard-mouse-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "keyboard-mouse",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-keyboard-mouse-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "keyboard-mouse",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-keyboard-mouse-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "keyboard-mouse",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-earphones-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "earphones",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-earphones-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "earphones",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-earphones-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "earphones",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-earphones-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "earphones",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-earphones-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "earphones",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-earphones-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "earphones",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요.",
+      "분리할 수 있는 배터리는 빼서 폐배터리 전용 수거함에 따로 버려 주세요.",
+      "배터리가 들어 있어 분리가 어려우면 무리하게 분해하지 말고 제품 그대로 배출해요.",
+      "전원을 최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-iron-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "iron",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-iron-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "iron",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-iron-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "iron",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-iron-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "iron",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-iron-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "iron",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-iron-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "iron",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-blender-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "blender",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-blender-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "blender",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 전용수거함 (공동주택은 관리사무소에 문의)",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-blender-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "blender",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-blender-visit-with-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "blender",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-blender-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "blender",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-blender-visit-with-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "blender",
+    "when": {
+      "count": "with-large"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "대형 폐가전 방문수거를 신청할 때 함께 배출할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-power-bank-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "power-bank",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "공동주택이나 행정복지센터 등의 폐가전 전용 수거함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "인천시는 보조배터리도 무료 배출 대상으로 안내해요.",
+      "분해하지 말고 그대로 배출해요.",
+      "최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-power-bank-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "power-bank",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "공동주택이나 행정복지센터 등의 폐가전 전용 수거함",
+    "costWon": 0,
+    "cautions": [
+      "전용 수거함은 수량과 관계없이 무료예요.",
+      "인천시는 보조배터리도 무료 배출 대상으로 안내해요.",
+      "분해하지 말고 그대로 배출해요.",
+      "최대한 방전하고, 단자가 드러나면 절연테이프로 감싸 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-fridge-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "fridge",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "1개만 있어도 무상 수거되는 품목이에요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-fridge-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "fridge",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "12kg 이상 대형 가전은 1개만 있어도 방문수거를 신청할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-washer-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "washer",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "1개만 있어도 무상 수거되는 품목이에요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-washer-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "washer",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "12kg 이상 대형 가전은 1개만 있어도 방문수거를 신청할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-aircon-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "aircon",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "1개만 있어도 무상 수거되는 품목이에요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-aircon-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "aircon",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "12kg 이상 대형 가전은 1개만 있어도 방문수거를 신청할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-tv-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "tv",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "1개만 있어도 무상 수거되는 품목이에요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-tv-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "tv",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "12kg 이상 대형 가전은 1개만 있어도 방문수거를 신청할 수 있어요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20)",
+    "sourceUrl": "https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-desktop-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "desktop",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "1개만 있어도 무상 수거되는 품목이에요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-desktop-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "desktop",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "미추홀구 안내에는 품목별 목록이 없어요. 인천시 안내 기준으로 12kg 이상 대형 가전은 1개도 방문수거돼요. 가볍다면 예약할 때 1개만 수거되는지 확인해 주세요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-air-purifier-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "air-purifier",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "1개만 있어도 무상 수거되는 품목이에요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-air-purifier-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "air-purifier",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "미추홀구 안내에는 품목별 목록이 없어요. 인천시 안내 기준으로 12kg 이상 대형 가전은 1개도 방문수거돼요. 가볍다면 예약할 때 1개만 수거되는지 확인해 주세요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-dehumidifier-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "dehumidifier",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "1개만 있어도 무상 수거되는 품목이에요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-dehumidifier-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "dehumidifier",
+    "when": {},
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr, 앱 「폐전자제품 모두비움」)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "미추홀구 안내에는 품목별 목록이 없어요. 인천시 안내 기준으로 12kg 이상 대형 가전은 1개도 방문수거돼요. 가볍다면 예약할 때 1개만 수거되는지 확인해 주세요.",
+      "1599-0903 전화, 15990903.or.kr, 앱 「폐전자제품 모두비움」으로 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
   }
 ]

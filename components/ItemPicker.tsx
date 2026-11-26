@@ -24,6 +24,53 @@ function ItemChip({
   );
 }
 
+/** 분류군 버튼과 그 분류의 품목. 검색 전에도, 결과가 없을 때도 쓴다. */
+function GroupBrowser({
+  group,
+  onGroup,
+  onPick,
+}: {
+  group: string | null;
+  onGroup: (group: string | null) => void;
+  onPick: (itemId: string) => void;
+}) {
+  return (
+    <>
+      <div className="mt-2 grid grid-cols-2 gap-2">
+        {getGroups().map((name) => {
+          const count = items.filter((item) => item.group === name).length;
+          const selected = group === name;
+          return (
+            <button
+              key={name}
+              type="button"
+              onClick={() => onGroup(selected ? null : name)}
+              aria-pressed={selected}
+              className={`flex min-h-12 items-center justify-between rounded-xl border-2 px-3 py-2 text-left text-[15px] font-bold ${
+                selected
+                  ? "border-leaf bg-leaf-soft text-leaf-dark"
+                  : "border-line bg-card"
+              }`}
+            >
+              {name}
+              <span className="text-xs font-semibold text-muted">{count}</span>
+            </button>
+          );
+        })}
+      </div>
+      {group && (
+        <div className="mt-3 flex flex-wrap gap-2 rounded-2xl bg-desk/60 p-3">
+          {items
+            .filter((item) => item.group === group)
+            .map((item) => (
+              <ItemChip key={item.id} item={item} onPick={onPick} />
+            ))}
+        </div>
+      )}
+    </>
+  );
+}
+
 export default function ItemPicker({
   onPick,
 }: {
@@ -33,11 +80,11 @@ export default function ItemPicker({
   /** [검색]을 누른 검색어. 결과는 이 값으로만 보여 줘서 검색이 됐는지 알 수 있게 한다. */
   const [searched, setSearched] = useState("");
   const [group, setGroup] = useState<string | null>(null);
-  const trimmed = searched;
-  const results = searchItems(trimmed);
+  const results = searchItems(searched);
   const frequent = FREQUENT_ITEM_IDS.map(getItem).filter(
     (item): item is Item => item !== undefined,
   );
+  const noResult = searched !== "" && results.length === 0;
 
   function submit(event: FormEvent) {
     event.preventDefault();
@@ -64,9 +111,14 @@ export default function ItemPicker({
                 setGroup(null);
               }
             }}
-            placeholder="예: 커피포트, 후라이팬"
+            placeholder="예: 커피포트, 노트북"
             autoComplete="off"
-            className="h-12 min-w-0 flex-1 rounded-xl border-2 border-line bg-card px-4 text-base focus:border-leaf focus:outline-none"
+            aria-invalid={noResult}
+            className={`h-12 min-w-0 flex-1 rounded-xl border-2 bg-card px-4 text-base focus:outline-none ${
+              noResult
+                ? "border-danger-ink"
+                : "border-line focus:border-leaf"
+            }`}
           />
           <button
             type="submit"
@@ -78,13 +130,34 @@ export default function ItemPicker({
         </div>
       </form>
 
-      {trimmed !== "" && (
-        <p role="status" className="mt-4 text-sm font-bold text-muted">
-          ‘{trimmed}’ 검색 결과 {results.length}개
-        </p>
+      {searched !== "" && results.length > 0 && (
+        <>
+          <p role="status" className="mt-4 text-base font-bold text-leaf-dark">
+            ‘{searched}’ 검색 결과 {results.length}개
+          </p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {results.map((item) => (
+              <ItemChip key={item.id} item={item} onPick={onPick} />
+            ))}
+          </div>
+        </>
       )}
 
-      {trimmed === "" && (
+      {noResult && (
+        <div
+          role="alert"
+          className="mt-4 rounded-2xl border-2 border-danger-ink bg-danger-soft p-4"
+        >
+          <p className="text-lg leading-snug font-bold text-danger-ink">
+            ‘{searched}’ 검색 결과가 없어요
+          </p>
+          <p className="mt-1 text-[15px] leading-relaxed text-danger-ink">
+            다른 이름으로 검색하거나, 아래에서 비슷한 분류를 골라 주세요.
+          </p>
+        </div>
+      )}
+
+      {searched === "" && (
         <div className="mt-5">
           <p className="text-sm font-bold">자주 찾는 품목</p>
           <div className="mt-2 flex flex-wrap gap-2">
@@ -95,45 +168,15 @@ export default function ItemPicker({
         </div>
       )}
 
-      {trimmed !== "" && results.length > 0 && (
-        <div className="mt-2 flex flex-wrap gap-2">
-          {results.map((item) => (
-            <ItemChip key={item.id} item={item} onPick={onPick} />
-          ))}
-        </div>
-      )}
-
-      {trimmed !== "" && results.length === 0 && (
-        <div className="mt-2">
-          <p className="text-[15px] leading-relaxed">
-            맞는 품목이 없어요. 비슷한 분류를 골라 주세요.
+      {(searched === "" || noResult) && (
+        <div className="mt-6">
+          <p className="text-sm font-bold">
+            분류별로 찾기{" "}
+            <span className="font-semibold text-muted">
+              · 전체 {items.length}개 품목
+            </span>
           </p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {getGroups().map((name) => (
-              <button
-                key={name}
-                type="button"
-                onClick={() => setGroup(name)}
-                aria-pressed={group === name}
-                className={`min-h-11 rounded-xl border px-3 py-2 text-sm font-bold ${
-                  group === name
-                    ? "border-leaf bg-leaf-soft text-leaf-dark"
-                    : "border-line bg-card"
-                }`}
-              >
-                {name}
-              </button>
-            ))}
-          </div>
-          {group && (
-            <div className="mt-3 flex flex-wrap gap-2">
-              {items
-                .filter((item) => item.group === group)
-                .map((item) => (
-                  <ItemChip key={item.id} item={item} onPick={onPick} />
-                ))}
-            </div>
-          )}
+          <GroupBrowser group={group} onGroup={setGroup} onPick={onPick} />
         </div>
       )}
     </div>

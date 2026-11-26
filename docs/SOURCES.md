@@ -14,6 +14,18 @@
 | 연수구 대형폐기물 품목별 수수료 | https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp | 거울, 선풍기, 전기밥솥, 자전거, 소파 |
 | 미추홀구 대형폐기물 처리수수료표 | https://www.michuhol.go.kr/other/attach_down.do?sq=441&key=DB7770C867 | 거울, 자전거, 소파 |
 
+전자기기 품목 근거 (2026-11-26 확인):
+
+| 출처 | URL | 사용한 값 |
+|---|---|---|
+| 인천시 보도자료 「폐가전 무상수거 전 품목 확대」(2026-03-20) | https://www.incheon.go.kr/IC010205/view?repSeq=DOM_0000000014377781 | 전 품목 확대, 12kg 이상 대형 1개 수거, 중·소형은 대형과 함께 배출 가능, 전용 수거함 수량 무관 무료, 보조배터리 포함, 배터리 배출 요령, 신청 방법 |
+| E-순환거버넌스 맞춤수거·중소형 폐가전 수거함 | https://www.e-cycle.or.kr/major_projects/customized_collection/ | 수거함 설치 장소(공동주택, 행정복지센터) |
+| E-순환거버넌스 나눔폰 | https://www.e-cycle.or.kr/major_projects/nanum_phone/ | 휴대폰 기부, 문의 1899-7047 |
+| 연수구 폐가전제품 무상 방문수거 | https://www.yeonsu.go.kr/main/part/clean/pickup.asp | 1개만 있어도 수거되는 품목(냉장고, 세탁기, 에어컨, TV, PC세트, 공기청정기, 제습기 등), 다량수거 품목 |
+| 연수구 재활용가능자원 배출방법 | https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp | 1m 이하 소형 가전은 동 행정복지센터 전용수거함 |
+
+E-순환거버넌스 예약 누리집(15990903.or.kr)은 화면을 스크립트로 그려서 내용을 읽지 못했다. 품목별 세부 조건은 위 인천시·연수구 자료를 따랐다.
+
 처음 확인한 출처:
 
 | 출처 | URL | 사용한 값 |

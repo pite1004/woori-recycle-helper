@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { ChangeEvent } from "react";
 import { useState } from "react";
+import HomeExtras from "@/components/HomeExtras";
 import MorePhotoPrompt, { releasePreviews } from "@/components/MorePhotoPrompt";
 import type { Recognition } from "@/lib/client-ai";
 import { clearRecognition, recognizePhotos } from "@/lib/client-ai";
@@ -156,6 +157,8 @@ export default function HomePage() {
           AI가 헷갈리면 한 장 더 찍어 달라고 할게요.
         </p>
       </div>
+
+      <HomeExtras />
     </section>
   );
 }

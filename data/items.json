@@ -12,16 +12,20 @@
     "questions": [
       {
         "id": "count",
-        "shortLabel": "소형가전 개수",
-        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
         "options": [
           {
             "id": "five-plus",
-            "label": "5개 이상"
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
           },
           {
             "id": "under-five",
-            "label": "5개 미만"
+            "label": "둘 다 아님"
           }
         ]
       }
@@ -39,16 +43,20 @@
     "questions": [
       {
         "id": "count",
-        "shortLabel": "소형가전 개수",
-        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
         "options": [
           {
             "id": "five-plus",
-            "label": "5개 이상"
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
           },
           {
             "id": "under-five",
-            "label": "5개 미만"
+            "label": "둘 다 아님"
           }
         ]
       }
@@ -557,16 +565,20 @@
     "questions": [
       {
         "id": "count",
-        "shortLabel": "소형가전 개수",
-        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
         "options": [
           {
             "id": "five-plus",
-            "label": "5개 이상"
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
           },
           {
             "id": "under-five",
-            "label": "5개 미만"
+            "label": "둘 다 아님"
           }
         ]
       }
@@ -584,16 +596,20 @@
     "questions": [
       {
         "id": "count",
-        "shortLabel": "소형가전 개수",
-        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
         "options": [
           {
             "id": "five-plus",
-            "label": "5개 이상"
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
           },
           {
             "id": "under-five",
-            "label": "5개 미만"
+            "label": "둘 다 아님"
           }
         ]
       }
@@ -686,5 +702,469 @@
         ]
       }
     ]
+  },
+  {
+    "id": "phone",
+    "name": "휴대폰",
+    "aliases": [
+      "스마트폰",
+      "핸드폰",
+      "폰",
+      "폐휴대폰",
+      "피처폰"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "laptop",
+    "name": "노트북",
+    "aliases": [
+      "랩탑",
+      "노트북 컴퓨터",
+      "넷북"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tablet",
+    "name": "태블릿",
+    "aliases": [
+      "아이패드",
+      "갤럭시탭",
+      "태블릿PC",
+      "전자책 단말기"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monitor",
+    "name": "모니터",
+    "aliases": [
+      "컴퓨터 모니터",
+      "PC 모니터"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vacuum",
+    "name": "청소기",
+    "aliases": [
+      "진공청소기",
+      "무선청소기",
+      "핸디 청소기",
+      "로봇청소기"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "printer",
+    "name": "프린터",
+    "aliases": [
+      "복합기",
+      "잉크젯 프린터",
+      "레이저 프린터"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shaver",
+    "name": "전기면도기",
+    "aliases": [
+      "면도기",
+      "바리깡",
+      "이발기"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "game-console",
+    "name": "게임기",
+    "aliases": [
+      "닌텐도",
+      "플레이스테이션",
+      "휴대용 게임기",
+      "조이스틱"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "keyboard-mouse",
+    "name": "키보드·마우스",
+    "aliases": [
+      "키보드",
+      "마우스",
+      "무선 마우스",
+      "컴퓨터 주변기기"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "earphones",
+    "name": "무선 이어폰",
+    "aliases": [
+      "이어폰",
+      "블루투스 이어폰",
+      "헤드폰",
+      "헤드셋",
+      "에어팟"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iron",
+    "name": "다리미",
+    "aliases": [
+      "스팀다리미",
+      "전기다리미"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blender",
+    "name": "믹서기",
+    "aliases": [
+      "블렌더",
+      "핸드블렌더",
+      "분쇄기",
+      "착즙기"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "함께 버리는 가전",
+        "text": "소형가전을 5개 이상 버리거나, 냉장고 같은 대형 가전과 함께 버리나요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "소형가전 5개 이상"
+          },
+          {
+            "id": "with-large",
+            "label": "대형 가전과 함께"
+          },
+          {
+            "id": "under-five",
+            "label": "둘 다 아님"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "power-bank",
+    "name": "보조배터리",
+    "aliases": [
+      "휴대용 배터리",
+      "파워뱅크",
+      "충전 배터리"
+    ],
+    "group": "소형가전",
+    "questions": []
+  },
+  {
+    "id": "fridge",
+    "name": "냉장고",
+    "aliases": [
+      "김치냉장고",
+      "냉동고",
+      "미니냉장고",
+      "와인냉장고"
+    ],
+    "group": "대형가전",
+    "questions": []
+  },
+  {
+    "id": "washer",
+    "name": "세탁기",
+    "aliases": [
+      "드럼세탁기",
+      "통돌이",
+      "탈수기"
+    ],
+    "group": "대형가전",
+    "questions": []
+  },
+  {
+    "id": "aircon",
+    "name": "에어컨",
+    "aliases": [
+      "에어컨디셔너",
+      "벽걸이 에어컨",
+      "스탠드 에어컨",
+      "실외기"
+    ],
+    "group": "대형가전",
+    "questions": []
+  },
+  {
+    "id": "tv",
+    "name": "TV",
+    "aliases": [
+      "텔레비전",
+      "티비",
+      "스마트TV"
+    ],
+    "group": "대형가전",
+    "questions": []
+  },
+  {
+    "id": "desktop",
+    "name": "데스크톱 컴퓨터",
+    "aliases": [
+      "컴퓨터 본체",
+      "데스크탑",
+      "PC",
+      "컴퓨터"
+    ],
+    "group": "대형가전",
+    "questions": []
+  },
+  {
+    "id": "air-purifier",
+    "name": "공기청정기",
+    "aliases": [
+      "공청기"
+    ],
+    "group": "대형가전",
+    "questions": []
+  },
+  {
+    "id": "dehumidifier",
+    "name": "제습기",
+    "aliases": [],
+    "group": "대형가전",
+    "questions": []
   }
 ]

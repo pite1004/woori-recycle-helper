@@ -388,6 +388,34 @@ describe("새 품목", () => {
   });
 });
 
+describe("전자기기 품목", () => {
+  it("별칭으로 찾는다", () => {
+    expect(searchItems("스마트폰").map((i) => i.id)).toContain("phone");
+    expect(searchItems("김치냉장고").map((i) => i.id)).toContain("fridge");
+  });
+
+  it("대형 가전은 질문 없이 무상 방문수거가 나온다", () => {
+    for (const region of [MH, YS]) {
+      const result = findRules(region, "fridge", {});
+      expect(result.rules.map((r) => [r.method, r.costWon])).toEqual([
+        ["폐가전 무상 방문수거", 0],
+      ]);
+    }
+  });
+
+  it("소형가전은 대형 가전과 함께 버리면 방문수거도 나온다", () => {
+    const alone = findRules(MH, "electric-kettle", { count: "under-five" });
+    const withLarge = findRules(MH, "electric-kettle", { count: "with-large" });
+    expect(alone.rules.map((r) => r.method)).toEqual(["소형 폐가전 수거함 배출"]);
+    expect(withLarge.rules.map((r) => r.method)).toContain("폐가전 무상 방문수거");
+  });
+
+  it("배터리가 든 기기에는 배터리 주의사항이 있다", () => {
+    const phone = findRules(YS, "phone", { count: "under-five" }).rules[0];
+    expect(phone.cautions.join(" ")).toContain("절연테이프");
+  });
+});
+
 describe("비용 표시", () => {
   it("무료, 금액, 확인 필요를 구분한다", () => {
     expect(formatCost(0)).toBe("무료");
