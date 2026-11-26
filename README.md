@@ -4,6 +4,8 @@
 
 **배포 URL**: https://woori-recycle-helper.vercel.app
 
+**코드 저장소**: https://github.com/pite1004/woori-recycle-helper
+
 ## 실행 환경
 
 - Node.js 22 이상 (개발에 사용한 버전: 26.13)
