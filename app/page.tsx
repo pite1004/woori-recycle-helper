@@ -4,22 +4,31 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { ChangeEvent } from "react";
 import { useState } from "react";
-import { clearRecognition, recognizePhoto } from "@/lib/client-ai";
+import PhotoCollector, { releasePreviews } from "@/components/PhotoCollector";
+import { clearRecognition, recognizePhotos } from "@/lib/client-ai";
 import { getRegion } from "@/lib/data";
 import { useSettings } from "@/lib/hooks";
+import { MAX_PHOTOS } from "@/lib/images";
 
 export default function HomePage() {
   const router = useRouter();
   const { settings } = useSettings();
   const [busy, setBusy] = useState(false);
+  /** null이면 첫 화면, 배열이면 사진을 모으는 중 */
+  const [photos, setPhotos] = useState<File[] | null>(null);
   const region = settings ? getRegion(settings.regionCode) : undefined;
 
-  async function handleFile(event: ChangeEvent<HTMLInputElement>) {
-    const file = event.target.files?.[0];
+  function pickFromAlbum(event: ChangeEvent<HTMLInputElement>) {
+    const picked = Array.from(event.target.files ?? []).slice(0, MAX_PHOTOS);
     event.target.value = "";
-    if (!file) return;
+    if (picked.length > 0) setPhotos(picked);
+  }
+
+  async function submit() {
+    if (!photos) return;
     setBusy(true);
-    await recognizePhoto(file);
+    await recognizePhotos(photos);
+    releasePreviews(photos);
     router.push("/identify");
   }
 
@@ -32,11 +41,24 @@ export default function HomePage() {
         className="flex min-h-[60dvh] flex-col items-center justify-center text-center"
       >
         <div className="size-12 animate-spin rounded-full border-4 border-leaf-soft border-t-leaf" />
-        <p className="mt-5 text-lg font-bold">사진을 살펴보고 있어요</p>
+        <p className="mt-5 text-lg font-bold">
+          사진 {photos?.length ?? 0}장을 살펴보고 있어요
+        </p>
         <p className="mt-1 text-sm text-muted">
           최대 30초 걸릴 수 있어요. 사진은 저장하지 않아요.
         </p>
       </section>
+    );
+  }
+
+  if (photos) {
+    return (
+      <PhotoCollector
+        photos={photos}
+        onChange={setPhotos}
+        onSubmit={submit}
+        onCancel={() => setPhotos(null)}
+      />
     );
   }
 
@@ -64,9 +86,10 @@ export default function HomePage() {
       </p>
 
       <div className="mt-7 space-y-3">
-        <label
-          role="button"
-          className="flex min-h-36 cursor-pointer flex-col items-center justify-center gap-2 rounded-3xl bg-leaf text-white focus-within:outline-3 focus-within:outline-offset-2 focus-within:outline-leaf active:bg-leaf-dark"
+        <button
+          type="button"
+          onClick={() => setPhotos([])}
+          className="flex min-h-36 w-full flex-col items-center justify-center gap-2 rounded-3xl bg-leaf text-white active:bg-leaf-dark"
         >
           <svg
             viewBox="0 0 24 24"
@@ -80,15 +103,8 @@ export default function HomePage() {
             />
           </svg>
           <span className="text-xl font-bold">사진 찍기</span>
-          <input
-            type="file"
-            accept="image/*"
-            capture="environment"
-            onChange={handleFile}
-            data-testid="camera-input"
-            className="sr-only"
-          />
-        </label>
+          <span className="text-sm text-white/85">2~3장 찍는 방법을 안내해요</span>
+        </button>
 
         <div className="grid grid-cols-2 gap-3">
           <label
@@ -99,7 +115,8 @@ export default function HomePage() {
             <input
               type="file"
               accept="image/*"
-              onChange={handleFile}
+              multiple
+              onChange={pickFromAlbum}
               data-testid="album-input"
               className="sr-only"
             />

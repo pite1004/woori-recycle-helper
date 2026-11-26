@@ -1,37 +1,690 @@
 [
-  { "id": "electric-kettle", "name": "전기포트", "aliases": ["커피포트", "주전자", "전기주전자", "포트"], "group": "소형가전",
-    "questions": [ { "id": "count", "shortLabel": "소형가전 개수", "text": "함께 버릴 소형가전이 5개 이상인가요?",
-      "options": [ { "id": "five-plus", "label": "5개 이상" }, { "id": "under-five", "label": "5개 미만" } ] } ] },
-  { "id": "hair-dryer", "name": "헤어드라이어", "aliases": ["드라이기", "드라이어", "머리말리개"], "group": "소형가전",
-    "questions": [ { "id": "count", "shortLabel": "소형가전 개수", "text": "함께 버릴 소형가전이 5개 이상인가요?",
-      "options": [ { "id": "five-plus", "label": "5개 이상" }, { "id": "under-five", "label": "5개 미만" } ] } ] },
-  { "id": "microwave", "name": "전자레인지", "aliases": ["레인지", "오븐레인지"], "group": "소형가전", "questions": [] },
-  { "id": "frying-pan", "name": "프라이팬", "aliases": ["후라이팬", "팬", "웍", "궁중팬"], "group": "주방용품",
+  {
+    "id": "electric-kettle",
+    "name": "전기포트",
+    "aliases": [
+      "커피포트",
+      "주전자",
+      "전기주전자",
+      "포트"
+    ],
+    "group": "소형가전",
     "questions": [
-      { "id": "handle", "shortLabel": "손잡이", "text": "손잡이가 몸통에서 분리되나요?",
-        "options": [ { "id": "detached", "label": "분리됨" }, { "id": "attached", "label": "분리 안 됨" } ] },
-      { "id": "material", "shortLabel": "재질", "text": "몸통 재질은 무엇인가요?",
-        "options": [ { "id": "stainless-iron", "label": "스테인리스·철" }, { "id": "aluminum", "label": "알루미늄" }, { "id": "coated", "label": "코팅" } ] }
-    ] },
-  { "id": "broken-ceramic", "name": "깨진 그릇(도자기)", "aliases": ["도자기", "사기그릇", "접시", "그릇", "머그컵", "깨진 접시"], "group": "주방용품", "questions": [] },
-  { "id": "broken-glass", "name": "깨진 유리", "aliases": ["유리조각", "유리 파편", "깨진 컵", "유리컵"], "group": "유리", "questions": [] },
-  { "id": "glass-bottle", "name": "유리병", "aliases": ["소주병", "맥주병", "음료병", "드링크병", "와인병", "병"], "group": "유리", "questions": [] },
-  { "id": "umbrella", "name": "우산", "aliases": ["양산", "장우산", "접이식 우산"], "group": "생활용품", "questions": [] },
-  { "id": "ice-pack", "name": "아이스팩", "aliases": ["냉동팩", "보냉팩", "얼음팩"], "group": "생활용품", "questions": [] },
-  { "id": "styrofoam", "name": "스티로폼", "aliases": ["스치로폼", "완충재", "포장재"], "group": "생활용품",
-    "questions": [ { "id": "kind", "shortLabel": "스티로폼 상태", "text": "어떤 스티로폼인가요?",
-      "options": [ { "id": "clean", "label": "깨끗한 포장 상자" }, { "id": "contaminated", "label": "음식물·코팅·색이 있음" }, { "id": "appliance", "label": "가전제품 완충재" } ] } ] },
-  { "id": "blanket", "name": "이불", "aliases": ["솜이불", "담요", "이불솜", "차렵이불"], "group": "생활용품",
-    "questions": [ { "id": "filling", "shortLabel": "솜", "text": "이불 안에 솜이 들어 있나요?",
-      "options": [ { "id": "cotton", "label": "솜 있음" }, { "id": "no-cotton", "label": "솜 없음" } ] } ] },
-  { "id": "battery", "name": "건전지", "aliases": ["배터리", "폐건전지", "AA건전지", "AAA건전지"], "group": "유해폐기물", "questions": [] },
-  { "id": "fluorescent-lamp", "name": "형광등", "aliases": ["폐형광등", "전등"], "group": "유해폐기물",
-    "questions": [ { "id": "state", "shortLabel": "형광등 상태", "text": "형광등이 깨졌나요?",
-      "options": [ { "id": "intact", "label": "멀쩡함" }, { "id": "broken", "label": "깨짐" } ] } ] },
-  { "id": "chair", "name": "의자", "aliases": ["사무용 의자", "게이밍 의자", "플라스틱 의자", "식탁의자"], "group": "대형폐기물",
-    "questions": [ { "id": "kind", "shortLabel": "의자 종류", "text": "어떤 의자인가요?",
-      "options": [ { "id": "plastic", "label": "플라스틱 원형·사각" }, { "id": "office", "label": "사무용·게이밍" }, { "id": "other", "label": "그 밖의 의자" } ] } ] },
-  { "id": "mattress", "name": "매트리스", "aliases": ["침대 매트리스", "침대매트"], "group": "대형폐기물",
-    "questions": [ { "id": "size", "shortLabel": "매트리스 크기", "text": "매트리스 크기는 어떻게 되나요?",
-      "options": [ { "id": "baby", "label": "유아용" }, { "id": "single", "label": "싱글·슈퍼싱글" }, { "id": "double", "label": "더블" }, { "id": "queen-king", "label": "퀸·킹" }, { "id": "large-king", "label": "라지킹·이스턴킹" } ] } ] }
+      {
+        "id": "count",
+        "shortLabel": "소형가전 개수",
+        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "5개 이상"
+          },
+          {
+            "id": "under-five",
+            "label": "5개 미만"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hair-dryer",
+    "name": "헤어드라이어",
+    "aliases": [
+      "드라이기",
+      "드라이어",
+      "머리말리개"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "소형가전 개수",
+        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "5개 이상"
+          },
+          {
+            "id": "under-five",
+            "label": "5개 미만"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "microwave",
+    "name": "전자레인지",
+    "aliases": [
+      "레인지",
+      "오븐레인지"
+    ],
+    "group": "소형가전",
+    "questions": []
+  },
+  {
+    "id": "frying-pan",
+    "name": "프라이팬",
+    "aliases": [
+      "후라이팬",
+      "팬",
+      "웍",
+      "궁중팬"
+    ],
+    "group": "주방용품",
+    "questions": [
+      {
+        "id": "handle",
+        "shortLabel": "손잡이",
+        "text": "손잡이가 몸통에서 분리되나요?",
+        "options": [
+          {
+            "id": "detached",
+            "label": "분리됨"
+          },
+          {
+            "id": "attached",
+            "label": "분리 안 됨"
+          }
+        ]
+      },
+      {
+        "id": "material",
+        "shortLabel": "재질",
+        "text": "몸통 재질은 무엇인가요?",
+        "options": [
+          {
+            "id": "stainless-iron",
+            "label": "스테인리스·철"
+          },
+          {
+            "id": "aluminum",
+            "label": "알루미늄"
+          },
+          {
+            "id": "coated",
+            "label": "코팅"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "broken-ceramic",
+    "name": "깨진 그릇(도자기)",
+    "aliases": [
+      "도자기",
+      "사기그릇",
+      "접시",
+      "그릇",
+      "머그컵",
+      "깨진 접시"
+    ],
+    "group": "주방용품",
+    "questions": []
+  },
+  {
+    "id": "broken-glass",
+    "name": "깨진 유리",
+    "aliases": [
+      "유리조각",
+      "유리 파편",
+      "깨진 컵",
+      "유리컵"
+    ],
+    "group": "유리",
+    "questions": []
+  },
+  {
+    "id": "glass-bottle",
+    "name": "유리병",
+    "aliases": [
+      "소주병",
+      "맥주병",
+      "음료병",
+      "드링크병",
+      "와인병",
+      "병"
+    ],
+    "group": "유리",
+    "questions": []
+  },
+  {
+    "id": "umbrella",
+    "name": "우산",
+    "aliases": [
+      "양산",
+      "장우산",
+      "접이식 우산"
+    ],
+    "group": "생활용품",
+    "questions": []
+  },
+  {
+    "id": "ice-pack",
+    "name": "아이스팩",
+    "aliases": [
+      "냉동팩",
+      "보냉팩",
+      "얼음팩"
+    ],
+    "group": "생활용품",
+    "questions": []
+  },
+  {
+    "id": "styrofoam",
+    "name": "스티로폼",
+    "aliases": [
+      "스치로폼",
+      "완충재",
+      "포장재"
+    ],
+    "group": "생활용품",
+    "questions": [
+      {
+        "id": "kind",
+        "shortLabel": "스티로폼 상태",
+        "text": "어떤 스티로폼인가요?",
+        "options": [
+          {
+            "id": "clean",
+            "label": "깨끗한 포장 상자"
+          },
+          {
+            "id": "contaminated",
+            "label": "음식물·코팅·색이 있음"
+          },
+          {
+            "id": "appliance",
+            "label": "가전제품 완충재"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blanket",
+    "name": "이불",
+    "aliases": [
+      "솜이불",
+      "담요",
+      "이불솜",
+      "차렵이불"
+    ],
+    "group": "생활용품",
+    "questions": [
+      {
+        "id": "filling",
+        "shortLabel": "솜",
+        "text": "이불 안에 솜이 들어 있나요?",
+        "options": [
+          {
+            "id": "cotton",
+            "label": "솜 있음"
+          },
+          {
+            "id": "no-cotton",
+            "label": "솜 없음"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "battery",
+    "name": "건전지",
+    "aliases": [
+      "배터리",
+      "폐건전지",
+      "AA건전지",
+      "AAA건전지"
+    ],
+    "group": "유해폐기물",
+    "questions": []
+  },
+  {
+    "id": "fluorescent-lamp",
+    "name": "형광등",
+    "aliases": [
+      "폐형광등",
+      "전등"
+    ],
+    "group": "유해폐기물",
+    "questions": [
+      {
+        "id": "state",
+        "shortLabel": "형광등 상태",
+        "text": "형광등이 깨졌나요?",
+        "options": [
+          {
+            "id": "intact",
+            "label": "멀쩡함"
+          },
+          {
+            "id": "broken",
+            "label": "깨짐"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chair",
+    "name": "의자",
+    "aliases": [
+      "사무용 의자",
+      "게이밍 의자",
+      "플라스틱 의자",
+      "식탁의자"
+    ],
+    "group": "대형폐기물",
+    "questions": [
+      {
+        "id": "kind",
+        "shortLabel": "의자 종류",
+        "text": "어떤 의자인가요?",
+        "options": [
+          {
+            "id": "plastic",
+            "label": "플라스틱 원형·사각"
+          },
+          {
+            "id": "office",
+            "label": "사무용·게이밍"
+          },
+          {
+            "id": "other",
+            "label": "그 밖의 의자"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mattress",
+    "name": "매트리스",
+    "aliases": [
+      "침대 매트리스",
+      "침대매트"
+    ],
+    "group": "대형폐기물",
+    "questions": [
+      {
+        "id": "size",
+        "shortLabel": "매트리스 크기",
+        "text": "매트리스 크기는 어떻게 되나요?",
+        "options": [
+          {
+            "id": "baby",
+            "label": "유아용"
+          },
+          {
+            "id": "single",
+            "label": "싱글·슈퍼싱글"
+          },
+          {
+            "id": "double",
+            "label": "더블"
+          },
+          {
+            "id": "queen-king",
+            "label": "퀸·킹"
+          },
+          {
+            "id": "large-king",
+            "label": "라지킹·이스턴킹"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pot",
+    "name": "냄비",
+    "aliases": [
+      "솥",
+      "양은냄비",
+      "편수냄비",
+      "곰솥",
+      "전골냄비",
+      "스텐냄비"
+    ],
+    "group": "주방용품",
+    "questions": [
+      {
+        "id": "handle",
+        "shortLabel": "손잡이",
+        "text": "손잡이는 어떻게 되어 있나요?",
+        "options": [
+          {
+            "id": "all-metal",
+            "label": "손잡이까지 전부 금속"
+          },
+          {
+            "id": "detached",
+            "label": "금속 아닌 손잡이, 분리됨"
+          },
+          {
+            "id": "attached",
+            "label": "금속 아닌 손잡이, 분리 안 됨"
+          }
+        ]
+      },
+      {
+        "id": "material",
+        "shortLabel": "재질",
+        "text": "몸통 재질은 무엇인가요?",
+        "options": [
+          {
+            "id": "stainless-iron",
+            "label": "스테인리스·철"
+          },
+          {
+            "id": "aluminum",
+            "label": "알루미늄·양은"
+          },
+          {
+            "id": "coated",
+            "label": "코팅"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pet-bottle",
+    "name": "페트병",
+    "aliases": [
+      "생수병",
+      "음료수병",
+      "투명 페트병",
+      "플라스틱 병",
+      "PET"
+    ],
+    "group": "재활용품",
+    "questions": [
+      {
+        "id": "color",
+        "shortLabel": "페트병 색",
+        "text": "페트병에 색이 있나요?",
+        "options": [
+          {
+            "id": "clear",
+            "label": "무색투명"
+          },
+          {
+            "id": "colored",
+            "label": "색이 있음"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plastic-container",
+    "name": "플라스틱 용기",
+    "aliases": [
+      "배달 용기",
+      "반찬통",
+      "샴푸통",
+      "세제통",
+      "요구르트병",
+      "플라스틱 통"
+    ],
+    "group": "재활용품",
+    "questions": [
+      {
+        "id": "dirt",
+        "shortLabel": "이물질",
+        "text": "용기에 음식물 등 이물질이 남아 있나요?",
+        "options": [
+          {
+            "id": "clean",
+            "label": "깨끗함"
+          },
+          {
+            "id": "dirty",
+            "label": "지워지지 않음"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "can",
+    "name": "음료 캔",
+    "aliases": [
+      "캔",
+      "맥주캔",
+      "음료수캔",
+      "참치캔",
+      "통조림"
+    ],
+    "group": "재활용품",
+    "questions": []
+  },
+  {
+    "id": "butane",
+    "name": "부탄가스",
+    "aliases": [
+      "가스통",
+      "휴대용 가스",
+      "스프레이",
+      "에어졸",
+      "살충제 통"
+    ],
+    "group": "재활용품",
+    "questions": []
+  },
+  {
+    "id": "paper-pack",
+    "name": "우유팩",
+    "aliases": [
+      "종이팩",
+      "주스팩",
+      "두유팩",
+      "멸균팩"
+    ],
+    "group": "재활용품",
+    "questions": []
+  },
+  {
+    "id": "box",
+    "name": "택배 상자",
+    "aliases": [
+      "종이 상자",
+      "박스",
+      "골판지",
+      "라면 박스"
+    ],
+    "group": "재활용품",
+    "questions": []
+  },
+  {
+    "id": "vinyl",
+    "name": "비닐봉지",
+    "aliases": [
+      "비닐",
+      "과자 봉지",
+      "라면 봉지",
+      "택배 비닐",
+      "포장 비닐",
+      "검정 비닐"
+    ],
+    "group": "재활용품",
+    "questions": [
+      {
+        "id": "dirt",
+        "shortLabel": "이물질",
+        "text": "비닐에 음식물 등 이물질이 남아 있나요?",
+        "options": [
+          {
+            "id": "clean",
+            "label": "깨끗함"
+          },
+          {
+            "id": "dirty",
+            "label": "지워지지 않음"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clothes",
+    "name": "헌옷",
+    "aliases": [
+      "옷",
+      "의류",
+      "신발",
+      "가방",
+      "티셔츠",
+      "바지"
+    ],
+    "group": "생활용품",
+    "questions": []
+  },
+  {
+    "id": "fan",
+    "name": "선풍기",
+    "aliases": [
+      "서큘레이터",
+      "탁상 선풍기"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "소형가전 개수",
+        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "5개 이상"
+          },
+          {
+            "id": "under-five",
+            "label": "5개 미만"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rice-cooker",
+    "name": "전기밥솥",
+    "aliases": [
+      "밥솥",
+      "압력밥솥",
+      "전기 압력밥솥"
+    ],
+    "group": "소형가전",
+    "questions": [
+      {
+        "id": "count",
+        "shortLabel": "소형가전 개수",
+        "text": "함께 버릴 소형가전이 5개 이상인가요?",
+        "options": [
+          {
+            "id": "five-plus",
+            "label": "5개 이상"
+          },
+          {
+            "id": "under-five",
+            "label": "5개 미만"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mirror",
+    "name": "거울",
+    "aliases": [
+      "전신거울",
+      "벽거울",
+      "스탠드 거울"
+    ],
+    "group": "대형폐기물",
+    "questions": [
+      {
+        "id": "size",
+        "shortLabel": "거울 크기",
+        "text": "거울 크기는 어떻게 되나요?",
+        "options": [
+          {
+            "id": "small",
+            "label": "1m 미만"
+          },
+          {
+            "id": "large",
+            "label": "1m 이상"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bicycle",
+    "name": "자전거",
+    "aliases": [
+      "어린이 자전거",
+      "세발자전거"
+    ],
+    "group": "대형폐기물",
+    "questions": [
+      {
+        "id": "kind",
+        "shortLabel": "자전거 종류",
+        "text": "어떤 자전거인가요?",
+        "options": [
+          {
+            "id": "adult",
+            "label": "어른용"
+          },
+          {
+            "id": "child",
+            "label": "어린이용"
+          },
+          {
+            "id": "toddler",
+            "label": "유아용"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sofa",
+    "name": "소파",
+    "aliases": [
+      "쇼파",
+      "1인 소파",
+      "리클라이너"
+    ],
+    "group": "대형폐기물",
+    "questions": [
+      {
+        "id": "seats",
+        "shortLabel": "소파 크기",
+        "text": "몇 인용 소파인가요?",
+        "options": [
+          {
+            "id": "one",
+            "label": "1인용"
+          },
+          {
+            "id": "two",
+            "label": "2인용"
+          },
+          {
+            "id": "three",
+            "label": "3인용"
+          }
+        ]
+      }
+    ]
+  }
 ]

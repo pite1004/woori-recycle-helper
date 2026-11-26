@@ -33,13 +33,13 @@ async function toResizedJpeg(file: File): Promise<string> {
 }
 
 /** 어떤 실패든 failed: true로 돌려주어 직접 고르기 화면으로 이어진다 */
-export async function recognizePhoto(file: File): Promise<Recognition> {
+export async function recognizePhotos(files: File[]): Promise<Recognition> {
   try {
-    const image = await toResizedJpeg(file);
+    const images = await Promise.all(files.map(toResizedJpeg));
     const response = await fetch("/api/recognize", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ image }),
+      body: JSON.stringify({ images }),
       signal: AbortSignal.timeout(TIMEOUT_MS),
     });
     if (!response.ok) throw new Error(`status ${response.status}`);

@@ -1,6 +1,20 @@
 # 외부 자료 출처
 
-## 규칙 데이터 (모두 2026-11-06 확인)
+## 규칙 데이터 (처음 15개 품목은 2026-11-06, 추가 14개 품목은 2026-11-26 확인)
+
+2026-11-26에 아래 페이지를 다시 읽었다. 미추홀구 재활용품·일반쓰레기 페이지의 최종수정일은 2026-11-11이었다.
+
+| 출처 | URL | 사용한 값 (2026-11-26 추가분) |
+|---|---|---|
+| 미추홀구 재활용품 | https://www.michuhol.go.kr/main/content.do?sq=446 | 금속·캔류, 투명 페트병, 플라스틱류, 종이류, 의류, 종이팩 교환 |
+| 미추홀구 비닐(필름)류 | https://www.michuhol.go.kr/main/content.do?sq=1595 | 비닐 배출 요일·시간·봉투, 불가 품목 |
+| 연수구 재활용가능자원 배출방법 | https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp | 페트병, 캔, 부탄가스, 소형가전 수거함 |
+| 연수구 의류수거함 | https://www.yeonsu.go.kr/main/part/clean/clothes.asp | 헌옷·이불 배출 품목과 불가 품목 |
+| 연수구 우리동네 배출요일 | https://www.yeonsu.go.kr/discharge/kor/sub/week.asp | 대형폐기물 동별 요일, 가정사업계 폐기물 요일 |
+| 연수구 대형폐기물 품목별 수수료 | https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp | 거울, 선풍기, 전기밥솥, 자전거, 소파 |
+| 미추홀구 대형폐기물 처리수수료표 | https://www.michuhol.go.kr/other/attach_down.do?sq=441&key=DB7770C867 | 거울, 자전거, 소파 |
+
+처음 확인한 출처:
 
 | 출처 | URL | 사용한 값 |
 |---|---|---|

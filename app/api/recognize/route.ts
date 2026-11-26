@@ -1,28 +1,24 @@
 import { NextResponse } from "next/server";
 import { recognizeItem } from "@/lib/ai";
+import { checkImages } from "@/lib/images";
 
 export const maxDuration = 40;
 
-/** 원본 2MB를 base64로 바꾼 길이 */
-const MAX_BASE64_LENGTH = Math.ceil((2 * 1024 * 1024 * 4) / 3);
-
 export async function POST(request: Request) {
-  let image: unknown;
+  let images: unknown;
   try {
-    ({ image } = (await request.json()) as { image?: unknown });
+    ({ images } = (await request.json()) as { images?: unknown });
   } catch {
     return NextResponse.json({ candidates: [] }, { status: 400 });
   }
 
-  if (typeof image !== "string" || image.length === 0) {
-    return NextResponse.json({ candidates: [] }, { status: 400 });
-  }
-  if (image.length > MAX_BASE64_LENGTH) {
-    return NextResponse.json({ candidates: [] }, { status: 413 });
+  const check = checkImages(images);
+  if (!check.ok) {
+    return NextResponse.json({ candidates: [] }, { status: check.status });
   }
 
   try {
-    const candidates = await recognizeItem(image);
+    const candidates = await recognizeItem(check.images);
     return NextResponse.json({ candidates });
   } catch (error) {
     // 사진 내용이 로그에 남지 않도록 오류 종류만 기록한다

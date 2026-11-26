@@ -60,7 +60,7 @@ export function parseInterpretation(
   }
 }
 
-export async function recognizeItem(imageBase64: string): Promise<string[]> {
+export async function recognizeItem(imagesBase64: string[]): Promise<string[]> {
   if (isMock()) return ["electric-kettle", "hair-dryer", "microwave"];
 
   const dictionary = items.map(({ id, name, aliases }) => ({
@@ -87,23 +87,29 @@ export async function recognizeItem(imageBase64: string): Promise<string[]> {
       },
     },
     system:
-      "당신은 사진 속 버릴 물건을 품목 사전에서 찾는 분류기입니다. " +
-      "사진의 중심 물건과 가장 비슷한 품목을 사전의 id 중에서만 최대 3개, 가능성이 높은 순서로 고르세요. " +
-      "사전에 맞는 품목이 없으면 빈 배열을 반환하세요. 사전에 없는 id를 만들면 안 됩니다.\n\n" +
+      "당신은 사진 속 버릴 물건이 품목 사전의 어느 품목인지 고르는 분류기입니다. " +
+      "사진은 모두 같은 물건을 여러 각도에서 찍은 것입니다.\n" +
+      "- 사진 속 물건과 종류가 같은 품목만 고르세요. 모양이 비슷해도 다른 물건이면 고르지 않습니다. " +
+      "예를 들어 냄비를 프라이팬으로, 전기포트를 전기밥솥으로 고르면 안 됩니다.\n" +
+      "- 사전의 id 중에서만, 가능성이 높은 순서로 최대 3개를 고르세요. 같은 종류로 볼 수 있는 품목이 하나뿐이면 하나만 반환합니다.\n" +
+      "- 사전에 같은 종류의 품목이 없거나 물건을 알아볼 수 없으면 빈 배열을 반환하세요. 사전에 없는 id를 만들면 안 됩니다.\n\n" +
       `품목 사전: ${JSON.stringify(dictionary)}`,
     messages: [
       {
         role: "user",
         content: [
-          {
-            type: "image",
+          ...imagesBase64.map((data) => ({
+            type: "image" as const,
             source: {
-              type: "base64",
-              media_type: "image/jpeg",
-              data: imageBase64,
+              type: "base64" as const,
+              media_type: "image/jpeg" as const,
+              data,
             },
+          })),
+          {
+            type: "text",
+            text: `같은 물건을 찍은 사진 ${imagesBase64.length}장입니다. 품목 후보를 골라 주세요.`,
           },
-          { type: "text", text: "이 사진의 품목 후보를 골라 주세요." },
         ],
       },
     ],

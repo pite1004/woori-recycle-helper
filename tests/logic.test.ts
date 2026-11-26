@@ -6,6 +6,7 @@ import {
   isConfirmed,
 } from "@/lib/confirm";
 import { getItem, items, regions, rules } from "@/lib/data";
+import { checkImages, MAX_IMAGE_BASE64, MAX_TOTAL_BASE64 } from "@/lib/images";
 import { findRules, formatCost } from "@/lib/rules";
 import { searchItems } from "@/lib/search";
 import {
@@ -101,7 +102,7 @@ describe("findRules", () => {
   });
 
   it("규칙이 없으면 none 상태를 돌려준다", () => {
-    expect(findRules(YS, "blanket", { filling: "cotton" })).toEqual({
+    expect(findRules(YS, "plastic-container", { dirt: "dirty" })).toEqual({
       status: "none",
       rules: [],
     });
@@ -333,6 +334,45 @@ describe("품목 검색", () => {
   it("빈 검색어와 없는 품목은 빈 결과다", () => {
     expect(searchItems("   ")).toEqual([]);
     expect(searchItems("자동차")).toEqual([]);
+  });
+});
+
+describe("사진 입력 검사", () => {
+  it("1~3장의 문자열만 받는다", () => {
+    expect(checkImages(["a", "b"])).toEqual({ ok: true, images: ["a", "b"] });
+    expect(checkImages([])).toEqual({ ok: false, status: 400 });
+    expect(checkImages("a")).toEqual({ ok: false, status: 400 });
+    expect(checkImages(["a", 1])).toEqual({ ok: false, status: 400 });
+    expect(checkImages(["a", "b", "c", "d"])).toEqual({ ok: false, status: 413 });
+  });
+
+  it("한 장이나 전체가 너무 크면 거절한다", () => {
+    const big = "a".repeat(MAX_IMAGE_BASE64 + 1);
+    expect(checkImages([big])).toEqual({ ok: false, status: 413 });
+    const part = "a".repeat(Math.ceil(MAX_TOTAL_BASE64 / 3) + 1);
+    expect(checkImages([part, part, part])).toEqual({ ok: false, status: 413 });
+  });
+});
+
+describe("새 품목", () => {
+  it("냄비가 사전에 있고 '솥'으로 검색된다", () => {
+    expect(searchItems("솥").map((i) => i.id)).toContain("pot");
+  });
+
+  it("전부 금속인 스테인리스 냄비는 무료 고철 재활용이 먼저 나온다", () => {
+    const result = findRules(MH, "pot", {
+      handle: "all-metal",
+      material: "stainless-iron",
+    });
+    expect(result.rules.map((r) => [r.method, r.costWon])).toEqual([
+      ["고철(금속·캔류) 재활용", 0],
+      ["종량제 봉투", 750],
+    ]);
+  });
+
+  it("연수구 대형폐기물 요일이 채워졌다", () => {
+    const chair = findRules(YS, "chair", { kind: "office" }).rules[0];
+    expect(chair.days).toContain("수·일");
   });
 });
 

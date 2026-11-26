@@ -476,13 +476,13 @@
     "method": "PP마대(불연성)",
     "category": "불연성 폐기물",
     "bagOrSticker": "PP마대 (30L 2,320원 · 60L 4,210원)",
-    "days": "확인 필요",
+    "days": "월~금 (모든 지역)",
     "time": "확인 필요",
     "place": "확인 필요",
     "costWon": 2320,
     "costNote": "PP마대 30L 1장 기준",
     "cautions": [
-      "수집·운반업체에 수거를 요청해야 해요. 업체 연락처는 구청에 문의해 주세요."
+      "배출한 뒤 서한기업(032-817-2233)에 직접 수거를 요청해야 해요."
     ],
     "sourceTitle": "연수구 올바른 생활폐기물 배출방법",
     "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_domestic.asp",
@@ -584,13 +584,13 @@
     "method": "PP마대(불연성)",
     "category": "불연성 폐기물",
     "bagOrSticker": "PP마대 (30L 2,320원 · 60L 4,210원)",
-    "days": "확인 필요",
+    "days": "월~금 (모든 지역)",
     "time": "확인 필요",
     "place": "확인 필요",
     "costWon": 2320,
     "costNote": "PP마대 30L 1장 기준",
     "cautions": [
-      "수집·운반업체에 수거를 요청해야 해요. 업체 연락처는 구청에 문의해 주세요."
+      "배출한 뒤 서한기업(032-817-2233)에 직접 수거를 요청해야 해요."
     ],
     "sourceTitle": "연수구 올바른 생활폐기물 배출방법",
     "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_domestic.asp",
@@ -697,7 +697,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 1000,
@@ -1183,7 +1183,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 2000,
@@ -1209,7 +1209,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 4000,
@@ -1235,7 +1235,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": null,
@@ -1261,7 +1261,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": null,
@@ -1443,7 +1443,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 3000,
@@ -1469,7 +1469,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 8000,
@@ -1495,7 +1495,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 8000,
@@ -1521,7 +1521,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 9000,
@@ -1547,7 +1547,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": 10000,
@@ -1573,7 +1573,7 @@
     "method": "대형폐기물 스티커",
     "category": "대형폐기물",
     "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
-    "days": "확인 필요",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
     "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
     "place": "자기 집(건물) 앞",
     "costWon": null,
@@ -1587,5 +1587,1590 @@
     "sourceTitle": "연수구 대형폐기물 품목별 수수료",
     "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
     "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "ys-blanket-clothes-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "blanket",
+    "when": {
+      "filling": "no-cotton"
+    },
+    "allowed": true,
+    "method": "의류 수거함",
+    "category": "재사용 가능 의류",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 의류수거함",
+    "costWon": 0,
+    "cautions": [
+      "담요와 얇은 이불이 해당돼요.",
+      "깨끗하게 세탁한 뒤 넣어 주세요."
+    ],
+    "sourceTitle": "연수구 의류수거함 안내",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/clothes.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-blanket-yellow",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "blanket",
+    "when": {
+      "filling": "cotton"
+    },
+    "allowed": true,
+    "method": "가정사업계 봉투(황색)",
+    "category": "가연성 폐기물",
+    "bagOrSticker": "가정사업계 봉투(황색) (30L 2,010원 · 60L 3,980원 · 90L 5,940원 · 125L 8,250원)",
+    "days": "월~금 (모든 지역)",
+    "time": "확인 필요",
+    "place": "확인 필요",
+    "costWon": 2010,
+    "costNote": "황색봉투 30L 1장 기준",
+    "cautions": [
+      "솜이불은 의류수거함에 넣을 수 없어요.",
+      "배출한 뒤 서한기업(032-817-2233)에 직접 수거를 요청해야 해요."
+    ],
+    "sourceTitle": "연수구 의류수거함 안내",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/clothes.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pot-bag",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pot",
+    "when": {},
+    "allowed": true,
+    "method": "종량제 봉투",
+    "category": "일반쓰레기(종량제)",
+    "bagOrSticker": "일반 종량제 봉투 (5L 210원 · 10L 390원 · 20L 750원 · 50L 1,850원 · 75L 2,780원)",
+    "days": "일~금요일 (토요일 제외)",
+    "time": "저녁 7시~12시",
+    "place": "집 앞(문 앞)",
+    "costWon": 750,
+    "costNote": "20L 봉투 1장 기준",
+    "cautions": [
+      "냄비는 가이드라인에 이름이 없어, 금속이 아닌 재질이 붙은 프라이팬과 같은 기준을 적용했어요.",
+      "코팅 냄비의 구별 재활용 여부는 공식 안내에서 찾지 못했어요. 구청에 문의하면 더 정확해요."
+    ],
+    "sourceTitle": "재활용품 분리배출 가이드라인(구로구청 누리집 게시본)",
+    "sourceUrl": "https://www.guro.go.kr/raonkeditordata/2020/10/20201007_171440860_48470.pdf",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pot-bag",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pot",
+    "when": {},
+    "allowed": true,
+    "method": "종량제 봉투",
+    "category": "일반쓰레기(종량제)",
+    "bagOrSticker": "일반 종량제 봉투 (5L 230원 · 10L 440원 · 20L 870원 · 50L 2,170원 · 75L 3,250원)",
+    "days": "일~금요일 (토요일 제외)",
+    "time": "저녁 6시~다음 날 새벽 4시",
+    "place": "공동주택은 지정 배출장소, 일반주택·상가는 문 앞",
+    "costWon": 870,
+    "costNote": "20L 봉투 1장 기준",
+    "cautions": [
+      "냄비는 가이드라인에 이름이 없어, 금속이 아닌 재질이 붙은 프라이팬과 같은 기준을 적용했어요.",
+      "코팅 냄비의 구별 재활용 여부는 공식 안내에서 찾지 못했어요. 구청에 문의하면 더 정확해요."
+    ],
+    "sourceTitle": "재활용품 분리배출 가이드라인(구로구청 누리집 게시본)",
+    "sourceUrl": "https://www.guro.go.kr/raonkeditordata/2020/10/20201007_171440860_48470.pdf",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pot-metal-all-metal-stainless-iron",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pot",
+    "when": {
+      "handle": "all-metal",
+      "material": "stainless-iron"
+    },
+    "allowed": true,
+    "method": "고철(금속·캔류) 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "플라스틱 등 다른 재질은 재질별로 분리해서 배출해요.",
+      "내용물과 음식물을 깨끗이 비우고 배출해요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pot-metal-all-metal-stainless-iron",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pot",
+    "when": {
+      "handle": "all-metal",
+      "material": "stainless-iron"
+    },
+    "allowed": true,
+    "method": "고철 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투 또는 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "고철, 알루미늄, 양은, 스텐류가 해당돼요.",
+      "내용물과 음식물을 깨끗이 비우고 배출해요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pot-metal-all-metal-aluminum",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pot",
+    "when": {
+      "handle": "all-metal",
+      "material": "aluminum"
+    },
+    "allowed": true,
+    "method": "고철(금속·캔류) 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "플라스틱 등 다른 재질은 재질별로 분리해서 배출해요.",
+      "내용물과 음식물을 깨끗이 비우고 배출해요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pot-metal-all-metal-aluminum",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pot",
+    "when": {
+      "handle": "all-metal",
+      "material": "aluminum"
+    },
+    "allowed": true,
+    "method": "고철 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투 또는 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "고철, 알루미늄, 양은, 스텐류가 해당돼요.",
+      "내용물과 음식물을 깨끗이 비우고 배출해요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pot-metal-detached-stainless-iron",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pot",
+    "when": {
+      "handle": "detached",
+      "material": "stainless-iron"
+    },
+    "allowed": true,
+    "method": "고철(금속·캔류) 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "플라스틱 등 다른 재질은 재질별로 분리해서 배출해요.",
+      "금속이 아닌 손잡이는 떼어 종량제 봉투에 버리고, 금속 몸통만 배출해요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pot-metal-detached-stainless-iron",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pot",
+    "when": {
+      "handle": "detached",
+      "material": "stainless-iron"
+    },
+    "allowed": true,
+    "method": "고철 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투 또는 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "고철, 알루미늄, 양은, 스텐류가 해당돼요.",
+      "금속이 아닌 손잡이는 떼어 종량제 봉투에 버리고, 금속 몸통만 배출해요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pot-metal-detached-aluminum",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pot",
+    "when": {
+      "handle": "detached",
+      "material": "aluminum"
+    },
+    "allowed": true,
+    "method": "고철(금속·캔류) 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "플라스틱 등 다른 재질은 재질별로 분리해서 배출해요.",
+      "금속이 아닌 손잡이는 떼어 종량제 봉투에 버리고, 금속 몸통만 배출해요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pot-metal-detached-aluminum",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pot",
+    "when": {
+      "handle": "detached",
+      "material": "aluminum"
+    },
+    "allowed": true,
+    "method": "고철 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투 또는 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "고철, 알루미늄, 양은, 스텐류가 해당돼요.",
+      "금속이 아닌 손잡이는 떼어 종량제 봉투에 버리고, 금속 몸통만 배출해요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pot-metal-attached",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pot",
+    "when": {
+      "handle": "attached"
+    },
+    "allowed": false,
+    "method": "고철(금속·캔류) 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "금속이 아닌 재질이 붙어 분리되지 않으면 고철로 배출할 수 없어요."
+    ],
+    "sourceTitle": "재활용품 분리배출 가이드라인(구로구청 누리집 게시본)",
+    "sourceUrl": "https://www.guro.go.kr/raonkeditordata/2020/10/20201007_171440860_48470.pdf",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pot-metal-attached",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pot",
+    "when": {
+      "handle": "attached"
+    },
+    "allowed": false,
+    "method": "고철 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투 또는 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "재질 혼합 제품은 고철로 배출할 수 없어요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pet-bottle-clear",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pet-bottle",
+    "when": {
+      "color": "clear"
+    },
+    "allowed": true,
+    "method": "투명 페트병 별도 배출",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "먹는 샘물·음료의 무색투명 페트병만 해당돼요.",
+      "내용물을 비우고 라벨을 뗀 뒤, 가능한 한 압착하고 뚜껑을 닫아 따로 배출해요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-pet-bottle-colored",
+    "regionCode": "incheon-michuhol",
+    "itemId": "pet-bottle",
+    "when": {
+      "color": "colored"
+    },
+    "allowed": true,
+    "method": "플라스틱류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "색이 있는 페트병은 플라스틱류와 함께 배출해요.",
+      "내용물을 비우고 다른 재질의 뚜껑과 상표는 떼어 주세요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pet-bottle-clear",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pet-bottle",
+    "when": {
+      "color": "clear"
+    },
+    "allowed": true,
+    "method": "투명 페트병 별도 배출",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "먹는 샘물·음료의 무색투명 페트병만 해당돼요.",
+      "내용물을 비우고 라벨을 뗀 뒤, 가능한 한 압착하고 뚜껑을 닫아 배출해요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-pet-bottle-colored",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "pet-bottle",
+    "when": {
+      "color": "colored"
+    },
+    "allowed": true,
+    "method": "플라스틱류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "색이 있는 페트병은 플라스틱류로 배출해요.",
+      "내용물을 비우고 헹군 뒤 상표와 부속품을 떼어 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-plastic-container-recycle",
+    "regionCode": "incheon-michuhol",
+    "itemId": "plastic-container",
+    "when": {
+      "dirt": "clean"
+    },
+    "allowed": true,
+    "method": "플라스틱류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "단일 재질 플라스틱 용기가 해당돼요.",
+      "내용물을 비우고 다른 재질의 뚜껑과 상표는 떼어 주세요.",
+      "다른 물질로 코팅된 것은 재활용되지 않아요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-plastic-container-recycle",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "plastic-container",
+    "when": {
+      "dirt": "clean"
+    },
+    "allowed": true,
+    "method": "플라스틱류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "내용물을 비우고 이물질과 상표를 제거해 주세요.",
+      "펌프 용기는 안쪽 철 스프링이 달린 펌프를 떼어 주세요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-plastic-container-recycle-dirty",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "plastic-container",
+    "when": {
+      "dirt": "dirty"
+    },
+    "allowed": false,
+    "method": "플라스틱류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투 또는 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "음식물 등 이물질이 묻은 플라스틱은 재활용할 수 없어요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-can-recycle",
+    "regionCode": "incheon-michuhol",
+    "itemId": "can",
+    "when": {},
+    "allowed": true,
+    "method": "금속·캔류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "캔 속 내용물은 깨끗이 비워 주세요.",
+      "플라스틱 등 다른 재질이 섞였으면 재질별로 분리해 주세요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-can-recycle",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "can",
+    "when": {},
+    "allowed": true,
+    "method": "금속캔 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "내용물을 비우고 가능한 한 압착해 주세요.",
+      "겉이나 속의 플라스틱 뚜껑은 떼어 주세요.",
+      "담배꽁초 등 이물질을 넣으면 안 돼요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-butane-recycle",
+    "regionCode": "incheon-michuhol",
+    "itemId": "butane",
+    "when": {},
+    "allowed": true,
+    "method": "금속·캔류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "에어졸과 부탄가스는 금속·캔류로 배출해요.",
+      "내용물을 깨끗이 비워 주세요. 비우는 방법은 미추홀구 안내에 따로 적혀 있지 않아요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-butane-recycle",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "butane",
+    "when": {},
+    "allowed": true,
+    "method": "금속캔 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "내용물을 완전히 비운 뒤 배출해요.",
+      "연수구 안내 두 곳의 비우는 방법이 달라요. 한 곳은 \"구멍을 뚫어 내용물을 비운 후\", 다른 곳은 \"통풍이 잘되는 곳에서 노즐을 누르는 등\"으로 안내해요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-paper-pack-recycle",
+    "regionCode": "incheon-michuhol",
+    "itemId": "paper-pack",
+    "when": {},
+    "allowed": true,
+    "method": "종이류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "따로 묶어서 배출",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "젖지 않게 하고 비닐·플라스틱 등은 떼어 주세요.",
+      "종이팩을 모아 행정복지센터에 가져가면 종량제봉투(10L)로 바꿀 수 있어요. 예: 200ml 100개, 1,000ml 35개"
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-paper-pack-recycle",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "paper-pack",
+    "when": {},
+    "allowed": true,
+    "method": "종이팩 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "물로 헹궈 펼쳐 말린 뒤 묶어 주세요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-box-recycle",
+    "regionCode": "incheon-michuhol",
+    "itemId": "box",
+    "when": {},
+    "allowed": true,
+    "method": "종이류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "따로 묶어서 배출",
+    "days": "동별 지정 요일\n일·화·목: 주안1·3·4·5·6·7동, 숭의1·3동, 용현1·4동, 용현2동, 학익2동, 도화1동\n월·수·금: 주안2·8동, 관교동, 문학동, 숭의2·4동, 용현3·5동, 학익1동, 도화2·3동",
+    "time": "저녁 7시~12시",
+    "place": "문 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음 (투명봉투에 담아 배출)",
+    "cautions": [
+      "젖지 않게 하고 비닐, 테이프 등 다른 재질은 떼어 주세요.",
+      "비닐 코팅된 종이는 종량제 봉투에 버려요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-box-recycle",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "box",
+    "when": {},
+    "allowed": true,
+    "method": "골판지류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "압착해서 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "테이프, 철핀, 알루미늄박 등은 떼어 주세요.",
+      "안쪽에 알루미늄박이나 비닐이 붙어 분리되지 않는 보냉 상자는 해당하지 않아요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-vinyl-recycle",
+    "regionCode": "incheon-michuhol",
+    "itemId": "vinyl",
+    "when": {},
+    "allowed": true,
+    "method": "비닐류 분리배출",
+    "category": "재활용품(비닐류)",
+    "bagOrSticker": "일반 (반)투명 봉투에 비닐만 모아서",
+    "days": "매주 수요일",
+    "time": "저녁 7시~12시",
+    "place": "집 앞",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "내용물을 비우고, 고추장·소스 등이 묻었으면 물로 헹궈 말려서 배출해요.",
+      "일반쓰레기나 음식물이 섞이면 수거를 거부하거나 과태료가 부과될 수 있어요.",
+      "에어캡, 페트병 라벨, 양파망, 보온보냉팩, 식품용 랩은 종량제 봉투에 버리라는 안내가 있어요.",
+      "비닐 500g을 목요일에 행정복지센터로 가져가면 종량제봉투(10L)로 바꿀 수 있어요."
+    ],
+    "sourceTitle": "미추홀구 비닐(필름)류 배출 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=1595",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-vinyl-recycle",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "vinyl",
+    "when": {
+      "dirt": "clean"
+    },
+    "allowed": true,
+    "method": "비닐류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "흩날리지 않도록 봉투에 담아 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "과자·라면 봉지와 포장 필름 등 깨끗한 비닐이 해당돼요.",
+      "이물질이 묻었으면 깨끗이 씻어서 배출해요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-vinyl-recycle-dirty",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "vinyl",
+    "when": {
+      "dirt": "dirty"
+    },
+    "allowed": false,
+    "method": "비닐류 재활용",
+    "category": "재활용품",
+    "bagOrSticker": "투명봉투 또는 끈으로 묶어 배출",
+    "days": "동별 지정 요일\n일·화·목: 옥련동, 연수동, 송도1·4·5동\n월·수·금: 청학동, 동춘동, 선학동, 송도2·3동",
+    "time": "일몰 후~새벽 4시 이전 (저녁 6시부터)",
+    "place": "집이나 가게 문 앞, 공동주택은 지정 장소",
+    "costWon": 0,
+    "costNote": "수수료 없음",
+    "cautions": [
+      "음식물 등 이물질이 묻은 비닐은 재활용되지 않아요."
+    ],
+    "sourceTitle": "연수구 재활용품 배출요령",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-clothes-clothes-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "clothes",
+    "when": {},
+    "allowed": true,
+    "method": "의류 수거함",
+    "category": "재사용 가능 의류",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "의류 수거함",
+    "costWon": 0,
+    "cautions": [
+      "재사용할 수 있는 의류, 신발, 가방이 해당돼요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-clothes-yellow",
+    "regionCode": "incheon-michuhol",
+    "itemId": "clothes",
+    "when": {},
+    "allowed": true,
+    "method": "황색봉투(가연성)",
+    "category": "가연성 폐기물",
+    "bagOrSticker": "별도처리용 황색봉투 (30L 2,110원 · 60L 4,220원)",
+    "days": "수거 요일 전날까지 내놓고 업체에 접수\n월·목: 용현1·4동, 용현2·3·5동, 주안1·2·4동\n화·금: 주안3·6·7·8동, 도화2·3동, 문학동\n수·토: 숭의1·3동, 숭의2·4동, 주안5동, 도화1동, 학익1·2동, 관교동",
+    "time": "수거 시간 7시~17시",
+    "place": "대문 앞",
+    "costWon": 2110,
+    "costNote": "황색봉투 30L 1장 기준",
+    "cautions": [
+      "재사용하기 어려운 의류는 황색봉투에 배출해요.",
+      "전화(032-880-4355), 인터넷, QR코드로 업체에 수거를 접수해야 해요.",
+      "60L 기준 15kg 이하로 담아 주세요."
+    ],
+    "sourceTitle": "미추홀구 재활용품 안내",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=446",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-clothes-clothes-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "clothes",
+    "when": {},
+    "allowed": true,
+    "method": "의류 수거함",
+    "category": "재사용 가능 의류",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "동 행정복지센터 의류수거함",
+    "costWon": 0,
+    "cautions": [
+      "헌옷, 신발, 가방, 담요, 커텐, 카펫이 해당돼요.",
+      "깨끗하게 세탁한 뒤 넣어 주세요.",
+      "실내화, 방석, 바퀴 달린 가방은 넣을 수 없어요."
+    ],
+    "sourceTitle": "연수구 의류수거함 안내",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/clothes.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-fan-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "fan",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "수거함 위치는 행정복지센터나 관리사무소에 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-fan-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "fan",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화 또는 15990903.or.kr에서 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-fan-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "fan",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "주민센터나 공동주택의 폐소형가전 수거함",
+    "costWon": 0,
+    "cautions": [
+      "1m 이하 소형 가전은 동 행정복지센터 전용수거함에 배출해요. 공동주택은 관리사무소에 문의해 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-fan-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "fan",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상 동시 배출일 때 이용할 수 있어요.",
+      "1599-0903 전화 또는 15990903.or.kr에서 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-fan-sticker",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "fan",
+    "when": {},
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 3000,
+    "costNote": "선풍기 모든 규격",
+    "cautions": [
+      "구 조례의 폐소형전자제품 무상수거 품목이면 무상 수거 대상이에요. 대형폐기물로 배출을 요청할 때 이 수수료가 붙어요.",
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-rice-cooker-box",
+    "regionCode": "incheon-michuhol",
+    "itemId": "rice-cooker",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "아파트는 단지 내 수집용 거치대, 그 외는 행정복지센터 소형가전 배출함",
+    "costWon": 0,
+    "cautions": [
+      "수거함 위치는 행정복지센터나 관리사무소에 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-rice-cooker-visit",
+    "regionCode": "incheon-michuhol",
+    "itemId": "rice-cooker",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상일 때 이용할 수 있어요.",
+      "1599-0903 전화 또는 15990903.or.kr에서 예약해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 배출신고 안내(소형 폐가전 포함)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-rice-cooker-box",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "rice-cooker",
+    "when": {},
+    "allowed": true,
+    "method": "소형 폐가전 수거함 배출",
+    "category": "소형 폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "확인 필요",
+    "time": "확인 필요",
+    "place": "주민센터나 공동주택의 폐소형가전 수거함",
+    "costWon": 0,
+    "cautions": [
+      "1m 이하 소형 가전은 동 행정복지센터 전용수거함에 배출해요. 공동주택은 관리사무소에 문의해 주세요."
+    ],
+    "sourceTitle": "연수구 재활용가능자원 배출방법",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/method_recycle.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-rice-cooker-visit",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "rice-cooker",
+    "when": {
+      "count": "five-plus"
+    },
+    "allowed": true,
+    "method": "폐가전 무상 방문수거",
+    "category": "폐가전",
+    "bagOrSticker": "필요 없음",
+    "days": "예약한 날",
+    "time": "콜센터 평일 08:00~18:00 (인터넷 예약은 15990903.or.kr)",
+    "place": "집으로 방문해 수거",
+    "costWon": 0,
+    "cautions": [
+      "소형가전이 5개 이상 동시 배출일 때 이용할 수 있어요.",
+      "1599-0903 전화 또는 15990903.or.kr에서 예약해 주세요."
+    ],
+    "sourceTitle": "연수구 폐가전제품 무상 방문수거",
+    "sourceUrl": "https://www.yeonsu.go.kr/main/part/clean/pickup.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-rice-cooker-sticker",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "rice-cooker",
+    "when": {},
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 3000,
+    "costNote": "전기밥솥 모든 규격",
+    "cautions": [
+      "구 조례의 폐소형전자제품 무상수거 품목이면 무상 수거 대상이에요. 대형폐기물로 배출을 요청할 때 이 수수료가 붙어요.",
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-mirror-sticker-small",
+    "regionCode": "incheon-michuhol",
+    "itemId": "mirror",
+    "when": {
+      "size": "small"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": 2000,
+    "costNote": "반신거울, 소(1m 미만)",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-mirror-sticker-large",
+    "regionCode": "incheon-michuhol",
+    "itemId": "mirror",
+    "when": {
+      "size": "large"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": 5000,
+    "costNote": "전신거울, 대(1m 이상)",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-mirror-sticker-unknown",
+    "regionCode": "incheon-michuhol",
+    "itemId": "mirror",
+    "when": {
+      "size": "unknown"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": null,
+    "costNote": "크기에 따라 2,000~5,000원이에요.",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-mirror-sticker-small",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "mirror",
+    "when": {
+      "size": "small"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 2000,
+    "costNote": "반신거울(소), 1m 미만",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-mirror-sticker-large",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "mirror",
+    "when": {
+      "size": "large"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 5000,
+    "costNote": "반신거울(대), 1m 이상",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-mirror-sticker-unknown",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "mirror",
+    "when": {
+      "size": "unknown"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": null,
+    "costNote": "크기에 따라 2,000~5,000원이에요.",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-bicycle-sticker-adult",
+    "regionCode": "incheon-michuhol",
+    "itemId": "bicycle",
+    "when": {
+      "kind": "adult"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": 5000,
+    "costNote": "자전거 대, 일반(어른용)",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-bicycle-sticker-child",
+    "regionCode": "incheon-michuhol",
+    "itemId": "bicycle",
+    "when": {
+      "kind": "child"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": 4000,
+    "costNote": "자전거 소(어린이용)",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-bicycle-sticker-unknown",
+    "regionCode": "incheon-michuhol",
+    "itemId": "bicycle",
+    "when": {
+      "kind": "unknown"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": null,
+    "costNote": "종류에 따라 4,000~5,000원이에요.",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-bicycle-sticker-adult",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "bicycle",
+    "when": {
+      "kind": "adult"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 5000,
+    "costNote": "자전거(일반)",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-bicycle-sticker-child",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "bicycle",
+    "when": {
+      "kind": "child"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 4000,
+    "costNote": "자전거(어린이)",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-bicycle-sticker-toddler",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "bicycle",
+    "when": {
+      "kind": "toddler"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 3000,
+    "costNote": "자전거(유아용)",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-bicycle-sticker-unknown",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "bicycle",
+    "when": {
+      "kind": "unknown"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": null,
+    "costNote": "종류에 따라 3,000~5,000원이에요.",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-sofa-sticker-one",
+    "regionCode": "incheon-michuhol",
+    "itemId": "sofa",
+    "when": {
+      "seats": "one"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": 5000,
+    "costNote": "소파 1인용",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-sofa-sticker-two",
+    "regionCode": "incheon-michuhol",
+    "itemId": "sofa",
+    "when": {
+      "seats": "two"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": 6000,
+    "costNote": "소파 2인용",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-sofa-sticker-three",
+    "regionCode": "incheon-michuhol",
+    "itemId": "sofa",
+    "when": {
+      "seats": "three"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": 10000,
+    "costNote": "소파 3인용",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "mh-sofa-sticker-unknown",
+    "regionCode": "incheon-michuhol",
+    "itemId": "sofa",
+    "when": {
+      "seats": "unknown"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 인터넷·빼기 앱·키오스크 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 수거 요일 (수거일 전날 배출)\n월: 숭의1·3동, 숭의2동, 주안2·4동, 용현1·4동, 관교동, 문학동\n화: 학익1동, 숭의4동, 도화2·3동, 주안1·3·7·8동, 용현2·3동\n수: 학익2동, 주안2·5·6동, 도화1동, 용현5동\n목: 숭의1·3동, 숭의2동, 학익1동, 주안4동, 용현1·4동, 관교동, 문학동\n금: 숭의4동, 도화2·3동, 주안1·2·3·7·8동, 용현2·3동\n토: 학익1·2동, 주안5·6동, 도화1동, 용현5동",
+    "time": "수거일 전날 17시~자정",
+    "place": "외부 출입구 문 앞",
+    "costWon": null,
+    "costNote": "크기에 따라 5,000원부터예요. 1~3인용은 5,000~10,000원이에요.",
+    "cautions": [
+      "배출 품목과 수수료가 다르면 수거하지 않아요.",
+      "스티커를 재사용하거나 신고필증을 중복 인쇄하면 수거하지 않고 과태료가 부과될 수 있어요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 인터넷(michuhol.go.kr/bigclean), 빼기 앱, 행정복지센터 키오스크, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "수수료표 작성일이 2019.01.29예요. 결제 전 신고 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "미추홀구 대형폐기물 처리수수료표(2019.01.29 작성)",
+    "sourceUrl": "https://www.michuhol.go.kr/main/content.do?sq=442",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-sofa-sticker-one",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "sofa",
+    "when": {
+      "seats": "one"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 5000,
+    "costNote": "소파 1인용",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-sofa-sticker-two",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "sofa",
+    "when": {
+      "seats": "two"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 6000,
+    "costNote": "소파 2인용",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-sofa-sticker-three",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "sofa",
+    "when": {
+      "seats": "three"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": 10000,
+    "costNote": "소파 3인용",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
+  },
+  {
+    "id": "ys-sofa-sticker-unknown",
+    "regionCode": "incheon-yeonsu",
+    "itemId": "sofa",
+    "when": {
+      "seats": "unknown"
+    },
+    "allowed": true,
+    "method": "대형폐기물 스티커",
+    "category": "대형폐기물",
+    "bagOrSticker": "대형폐기물 스티커 또는 빼기 앱·인터넷·키오스크·전화 신고 배출번호\n스티커 권종: 1,000 · 3,000 · 5,000 · 10,000원",
+    "days": "동별 배출 요일 (다음 날 수거)\n수·일: 옥련1동, 선학동, 동춘1동, 송도1~4동\n월·목: 옥련2동, 연수1동, 동춘2동, 송도5동\n화·금: 연수2·3동, 청학동, 동춘3동",
+    "time": "배출 요일 저녁 6시~11시 (수거는 다음 날)",
+    "place": "자기 집(건물) 앞",
+    "costWon": null,
+    "costNote": "크기에 따라 5,000원부터예요. 1~3인용은 5,000~10,000원이에요.",
+    "cautions": [
+      "수수료 기준보다 적은 금액의 스티커를 붙이면 수거하지 않아요.",
+      "스티커를 사면 지정판매소 구입대장에 꼭 기재해야 해요.",
+      "이 앱은 신고·결제를 대신하지 않아요. 빼기 앱, 인터넷, 키오스크, 전화, 스티커 판매소 중 하나로 직접 신청해 주세요.",
+      "2024년 6월 1일부터 상시 10% 할인 안내가 있어요. 표시 금액은 수수료표 기준이니 결제 화면의 금액을 확인해 주세요."
+    ],
+    "sourceTitle": "연수구 대형폐기물 품목별 수수료",
+    "sourceUrl": "https://www.yeonsu.go.kr/discharge/kor/sub/charge.asp",
+    "checkedAt": "2026-11-26"
   }
 ]
