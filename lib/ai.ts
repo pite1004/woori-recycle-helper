@@ -192,7 +192,7 @@ export async function interpretAnswer(
     model: model(),
     max_tokens: 1024,
     output_config: {
-      // low에서는 분명한 답도 '불확실'로 돌려주는 경우가 많았다(docs/TEST_LOG.md)
+      // medium에서 25개 시험 모두 통과(docs/TEST_LOG.md). 응답은 1~2초
       effort: "medium",
       format: {
         type: "json_schema",
