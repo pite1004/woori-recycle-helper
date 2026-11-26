@@ -18,8 +18,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    const candidates = await recognizeItem(check.images);
-    return NextResponse.json({ candidates });
+    return NextResponse.json(await recognizeItem(check.images));
   } catch (error) {
     // 사진 내용이 로그에 남지 않도록 오류 종류만 기록한다
     console.error("recognize failed:", (error as Error).name);

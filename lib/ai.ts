@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { items } from "./data";
-import type { AiInterpretation, Question } from "./types";
+import type { AiInterpretation, Certainty, Question } from "./types";
 
 const TIMEOUT_MS = 30_000;
 
@@ -23,19 +23,29 @@ function firstText(message: Anthropic.Message): string | null {
   return null;
 }
 
-/** 사전에 없는 id는 버리고 최대 3개만 남긴다. JSON이 아니면 빈 배열. */
-export function parseCandidates(text: string | null): string[] {
-  if (!text) return [];
+export type RecognizeResult = { candidates: string[]; certainty: Certainty };
+
+const NO_RESULT: RecognizeResult = { candidates: [], certainty: "불확실" };
+
+/**
+ * 사전에 없는 id는 버리고 최대 3개만 남긴다. JSON이 아니면 후보 0개.
+ * certainty가 "확실"이 아니면 불확실로 본다(앱이 한 장 더 찍기를 권한다).
+ */
+export function parseRecognition(text: string | null): RecognizeResult {
+  if (!text) return NO_RESULT;
   try {
-    const value = JSON.parse(text) as { candidates?: unknown };
-    if (!Array.isArray(value.candidates)) return [];
+    const value = JSON.parse(text) as { candidates?: unknown; certainty?: unknown };
+    if (!Array.isArray(value.candidates)) return NO_RESULT;
     const known = new Set(items.map((item) => item.id));
     const ids = value.candidates.filter(
       (id): id is string => typeof id === "string" && known.has(id),
     );
-    return [...new Set(ids)].slice(0, 3);
+    return {
+      candidates: [...new Set(ids)].slice(0, 3),
+      certainty: value.certainty === "확실" ? "확실" : "불확실",
+    };
   } catch {
-    return [];
+    return NO_RESULT;
   }
 }
 
@@ -60,8 +70,16 @@ export function parseInterpretation(
   }
 }
 
-export async function recognizeItem(imagesBase64: string[]): Promise<string[]> {
-  if (isMock()) return ["electric-kettle", "hair-dryer", "microwave"];
+export async function recognizeItem(
+  imagesBase64: string[],
+): Promise<RecognizeResult> {
+  if (isMock()) {
+    // 개발·테스트용: 1장이면 불확실로 답해 '한 장 더 찍기' 흐름을 확인할 수 있게 한다
+    return {
+      candidates: ["electric-kettle", "hair-dryer", "microwave"],
+      certainty: imagesBase64.length >= 2 ? "확실" : "불확실",
+    };
+  }
 
   const dictionary = items.map(({ id, name, aliases }) => ({
     id,
@@ -80,8 +98,9 @@ export async function recognizeItem(imagesBase64: string[]): Promise<string[]> {
           type: "object",
           properties: {
             candidates: { type: "array", items: { type: "string" } },
+            certainty: { type: "string", enum: ["확실", "불확실"] },
           },
-          required: ["candidates"],
+          required: ["candidates", "certainty"],
           additionalProperties: false,
         },
       },
@@ -92,7 +111,10 @@ export async function recognizeItem(imagesBase64: string[]): Promise<string[]> {
       "- 사진 속 물건과 종류가 같은 품목만 고르세요. 모양이 비슷해도 다른 물건이면 고르지 않습니다. " +
       "예를 들어 냄비를 프라이팬으로, 전기포트를 전기밥솥으로 고르면 안 됩니다.\n" +
       "- 사전의 id 중에서만, 가능성이 높은 순서로 최대 3개를 고르세요. 같은 종류로 볼 수 있는 품목이 하나뿐이면 하나만 반환합니다.\n" +
-      "- 사전에 같은 종류의 품목이 없거나 물건을 알아볼 수 없으면 빈 배열을 반환하세요. 사전에 없는 id를 만들면 안 됩니다.\n\n" +
+      "- 사전에 같은 종류의 품목이 없거나 물건을 알아볼 수 없으면 빈 배열을 반환하세요. 사전에 없는 id를 만들면 안 됩니다.\n" +
+      "- certainty: 첫 번째 후보가 사진 속 물건이라고 분명히 말할 수 있으면 \"확실\"입니다. " +
+      "물건이 가려졌거나 흐리거나, 두 품목 사이에서 헷갈리거나, 다른 각도의 사진이 있어야 판단할 수 있으면 \"불확실\"입니다. " +
+      "후보가 없으면 \"불확실\"입니다.\n\n" +
       `품목 사전: ${JSON.stringify(dictionary)}`,
     messages: [
       {
@@ -115,7 +137,7 @@ export async function recognizeItem(imagesBase64: string[]): Promise<string[]> {
     ],
   });
 
-  return parseCandidates(firstText(message));
+  return parseRecognition(firstText(message));
 }
 
 /** 개발·테스트용 정해진 해석. 시연과 배포에서는 쓰지 않는다. */

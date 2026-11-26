@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseCandidates, parseInterpretation } from "@/lib/ai";
+import { parseInterpretation, parseRecognition } from "@/lib/ai";
 import {
   evaluateInterpretation,
   hasUncertainExpression,
@@ -247,13 +247,25 @@ describe("AI 응답 파싱", () => {
   it("사전에 없는 id를 버리고 최대 3개만 남긴다", () => {
     const text = JSON.stringify({
       candidates: ["electric-kettle", "toaster", "frying-pan", "chair", "battery"],
+      certainty: "확실",
     });
-    expect(parseCandidates(text)).toEqual(["electric-kettle", "frying-pan", "chair"]);
+    expect(parseRecognition(text)).toEqual({
+      candidates: ["electric-kettle", "frying-pan", "chair"],
+      certainty: "확실",
+    });
   });
 
-  it("JSON이 아니면 후보 0개다", () => {
-    expect(parseCandidates("전기포트입니다")).toEqual([]);
-    expect(parseCandidates(null)).toEqual([]);
+  it("certainty가 '확실'이 아니거나 없으면 불확실이다(한 장 더 찍기 권함)", () => {
+    for (const certainty of ["불확실", "아마", undefined]) {
+      const text = JSON.stringify({ candidates: ["pot"], certainty });
+      expect(parseRecognition(text).certainty, String(certainty)).toBe("불확실");
+    }
+  });
+
+  it("JSON이 아니면 후보 0개, 불확실이다", () => {
+    const none = { candidates: [], certainty: "불확실" };
+    expect(parseRecognition("전기포트입니다")).toEqual(none);
+    expect(parseRecognition(null)).toEqual(none);
   });
 
   it("해석 응답 형식이 틀리면 null이다", () => {

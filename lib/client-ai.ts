@@ -5,8 +5,15 @@ import type { AiInterpretation } from "./types";
 const TIMEOUT_MS = 30_000;
 const MAX_SIDE = 1024;
 
-/** 메모리에만 두는 사진 인식 결과. 사진 자체는 어디에도 보관하지 않는다. */
-export type Recognition = { candidates: string[]; failed: boolean };
+/**
+ * 메모리에만 두는 사진 인식 결과. 사진 자체는 어디에도 보관하지 않는다.
+ * uncertain이면 홈 화면이 한 장 더 찍기를 권한다.
+ */
+export type Recognition = {
+  candidates: string[];
+  failed: boolean;
+  uncertain: boolean;
+};
 
 let recognition: Recognition | null = null;
 
@@ -43,10 +50,17 @@ export async function recognizePhotos(files: File[]): Promise<Recognition> {
       signal: AbortSignal.timeout(TIMEOUT_MS),
     });
     if (!response.ok) throw new Error(`status ${response.status}`);
-    const { candidates } = (await response.json()) as { candidates: string[] };
-    recognition = { candidates, failed: candidates.length === 0 };
+    const { candidates, certainty } = (await response.json()) as {
+      candidates: string[];
+      certainty?: string;
+    };
+    recognition = {
+      candidates,
+      failed: candidates.length === 0,
+      uncertain: certainty !== "확실",
+    };
   } catch {
-    recognition = { candidates: [], failed: true };
+    recognition = { candidates: [], failed: true, uncertain: true };
   }
   return recognition;
 }
