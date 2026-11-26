@@ -70,6 +70,26 @@ export function parseInterpretation(
   }
 }
 
+/** 한 줄에 "id|이름|별칭" 형식. JSON보다 짧아 토큰을 아낀다. 바뀌지 않아 캐시된다. */
+const DICTIONARY = items
+  .map(({ id, name, aliases }) =>
+    [id, name, aliases.slice(0, 4).join(",")].filter(Boolean).join("|"),
+  )
+  .join("\n");
+
+const RECOGNIZE_SYSTEM =
+  "당신은 사진 속 버릴 물건이 품목 사전의 어느 품목인지 고르는 분류기입니다. " +
+  "사진은 모두 같은 물건을 여러 각도에서 찍은 것입니다.\n" +
+  "- 사진 속 물건과 종류가 같은 품목만 고르세요. 모양이 비슷해도 다른 물건이면 고르지 않습니다. " +
+  "예를 들어 냄비를 프라이팬으로, 냄비 뚜껑을 냄비로, 전기포트를 전기밥솥으로 고르면 안 됩니다.\n" +
+  "- 사전의 id 중에서만, 가능성이 높은 순서로 최대 3개를 고르세요. 같은 종류로 볼 수 있는 품목이 하나뿐이면 하나만 반환합니다.\n" +
+  "- 사전에 같은 종류의 품목이 없거나 물건을 알아볼 수 없으면 빈 배열을 반환하세요. 사전에 없는 id를 만들면 안 됩니다.\n" +
+  '- certainty: 첫 번째 후보가 사진 속 물건이라고 분명히 말할 수 있으면 "확실"입니다. ' +
+  '물건이 가려졌거나 흐리거나, 두 품목 사이에서 헷갈리거나, 다른 각도의 사진이 있어야 판단할 수 있으면 "불확실"입니다. ' +
+  '후보가 없으면 "불확실"입니다.\n\n' +
+  "품목 사전(한 줄에 id|이름|별칭):\n" +
+  DICTIONARY;
+
 export async function recognizeItem(
   imagesBase64: string[],
 ): Promise<RecognizeResult> {
@@ -80,12 +100,6 @@ export async function recognizeItem(
       certainty: imagesBase64.length >= 2 ? "확실" : "불확실",
     };
   }
-
-  const dictionary = items.map(({ id, name, aliases }) => ({
-    id,
-    name,
-    aliases,
-  }));
 
   const message = await client().messages.create({
     model: model(),
@@ -105,17 +119,14 @@ export async function recognizeItem(
         },
       },
     },
-    system:
-      "당신은 사진 속 버릴 물건이 품목 사전의 어느 품목인지 고르는 분류기입니다. " +
-      "사진은 모두 같은 물건을 여러 각도에서 찍은 것입니다.\n" +
-      "- 사진 속 물건과 종류가 같은 품목만 고르세요. 모양이 비슷해도 다른 물건이면 고르지 않습니다. " +
-      "예를 들어 냄비를 프라이팬으로, 전기포트를 전기밥솥으로 고르면 안 됩니다.\n" +
-      "- 사전의 id 중에서만, 가능성이 높은 순서로 최대 3개를 고르세요. 같은 종류로 볼 수 있는 품목이 하나뿐이면 하나만 반환합니다.\n" +
-      "- 사전에 같은 종류의 품목이 없거나 물건을 알아볼 수 없으면 빈 배열을 반환하세요. 사전에 없는 id를 만들면 안 됩니다.\n" +
-      "- certainty: 첫 번째 후보가 사진 속 물건이라고 분명히 말할 수 있으면 \"확실\"입니다. " +
-      "물건이 가려졌거나 흐리거나, 두 품목 사이에서 헷갈리거나, 다른 각도의 사진이 있어야 판단할 수 있으면 \"불확실\"입니다. " +
-      "후보가 없으면 \"불확실\"입니다.\n\n" +
-      `품목 사전: ${JSON.stringify(dictionary)}`,
+    // 품목 사전이 길어(1,300개 이상) 매 요청 같은 내용이므로 프롬프트 캐시를 쓴다
+    system: [
+      {
+        type: "text",
+        text: RECOGNIZE_SYSTEM,
+        cache_control: { type: "ephemeral" },
+      },
+    ],
     messages: [
       {
         role: "user",

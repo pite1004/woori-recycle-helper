@@ -24,6 +24,40 @@ function ItemChip({
   );
 }
 
+const PAGE = 40;
+
+/** 한 분류의 품목. 수백 개인 분류도 있어 40개씩 더 보여 준다. */
+function GroupItems({
+  group,
+  onPick,
+}: {
+  group: string;
+  onPick: (itemId: string) => void;
+}) {
+  const [shown, setShown] = useState(PAGE);
+  const inGroup = items
+    .filter((item) => item.group === group)
+    .sort((a, b) => a.name.localeCompare(b.name, "ko"));
+  return (
+    <div className="mt-3 rounded-2xl bg-desk/60 p-3">
+      <div className="flex flex-wrap gap-2">
+        {inGroup.slice(0, shown).map((item) => (
+          <ItemChip key={item.id} item={item} onPick={onPick} />
+        ))}
+      </div>
+      {inGroup.length > shown && (
+        <button
+          type="button"
+          onClick={() => setShown((n) => n + PAGE)}
+          className="mt-3 h-11 w-full rounded-xl border-2 border-line bg-card text-sm font-bold"
+        >
+          더 보기 ({inGroup.length - shown}개 남음)
+        </button>
+      )}
+    </div>
+  );
+}
+
 /** 분류군 버튼과 그 분류의 품목. 검색 전에도, 결과가 없을 때도 쓴다. */
 function GroupBrowser({
   group,
@@ -58,15 +92,7 @@ function GroupBrowser({
           );
         })}
       </div>
-      {group && (
-        <div className="mt-3 flex flex-wrap gap-2 rounded-2xl bg-desk/60 p-3">
-          {items
-            .filter((item) => item.group === group)
-            .map((item) => (
-              <ItemChip key={item.id} item={item} onPick={onPick} />
-            ))}
-        </div>
-      )}
+      {group && <GroupItems group={group} onPick={onPick} />}
     </>
   );
 }

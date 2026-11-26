@@ -340,12 +340,12 @@ describe("품목 검색", () => {
   it("공백을 무시하고 부분 일치로 찾는다", () => {
     expect(searchItems("전기 주전자").map((i) => i.id)).toContain("electric-kettle");
     expect(searchItems("깨진유리").map((i) => i.id)).toContain("broken-glass");
-    expect(searchItems("드라이").map((i) => i.id)).toEqual(["hair-dryer"]);
+    expect(searchItems("드라이").map((i) => i.id)).toContain("hair-dryer");
   });
 
   it("빈 검색어와 없는 품목은 빈 결과다", () => {
     expect(searchItems("   ")).toEqual([]);
-    expect(searchItems("자동차")).toEqual([]);
+    expect(searchItems("우주정거장")).toEqual([]);
   });
 });
 
@@ -413,6 +413,49 @@ describe("전자기기 품목", () => {
   it("배터리가 든 기기에는 배터리 주의사항이 있다", () => {
     const phone = findRules(YS, "phone", { count: "under-five" }).rules[0];
     expect(phone.cautions.join(" ")).toContain("절연테이프");
+  });
+});
+
+describe("분리의 정석 품목", () => {
+  it("냄비 뚜껑은 유리면 불연성 마대, 금속이면 고철이다", () => {
+    const glass = findRules(MH, "pot-lid", { material: "glass" }).rules;
+    const metal = findRules(MH, "pot-lid", { material: "metal" }).rules;
+    expect(glass.map((r) => r.method)).toEqual(["PP마대(불연성)"]);
+    expect(metal.map((r) => r.method)).toEqual(["고철(금속·캔류) 재활용"]);
+    expect(glass[0].sourceUrl).toContain("wasteguide.or.kr");
+    // 미추홀구 PP마대는 업체 접수가 필요하다는 구청 주의사항이 옮겨져야 한다
+    expect(glass[0].cautions.join(" ")).toContain("032-880-4355");
+  });
+
+  it("다른 품목 전용 주의사항은 옮기지 않는다", () => {
+    const general = rules.filter((r) => r.itemId.startsWith("wg-") && r.method === "종량제 봉투");
+    expect(general.length).toBeGreaterThan(100);
+    expect(general.some((r) => r.cautions.join(" ").includes("프라이팬"))).toBe(false);
+  });
+
+  it("뚜껑으로 검색된다", () => {
+    expect(searchItems("유리뚜껑").map((i) => i.id)).toContain("pot-lid");
+  });
+
+  it("재질별로 갈리는 품목은 재질 질문으로 규칙이 나뉜다", () => {
+    const spoon = items.find((i) => i.name === "수저")!;
+    const [single, mixed] = spoon.questions[0].options.map((o) => o.id);
+    const a = findRules(YS, spoon.id, { variant: single }).rules.map((r) => r.method);
+    const b = findRules(YS, spoon.id, { variant: mixed }).rules.map((r) => r.method);
+    expect(a).toEqual(["고철 재활용"]);
+    expect(b).toEqual(["종량제 봉투"]);
+  });
+
+  it("소형 전자제품은 개수 질문에 따라 방문수거가 붙는다", () => {
+    const piano = items.find((i) => i.name === "장난감 피아노")!;
+    expect(findRules(MH, piano.id, { count: "under-five" }).rules).toHaveLength(1);
+    expect(findRules(MH, piano.id, { count: "five-plus" }).rules).toHaveLength(2);
+  });
+
+  it("대형폐기물 품목은 금액을 지어내지 않는다", () => {
+    const shelf = items.find((i) => i.name === "책꽂이")!;
+    const rule = findRules(MH, shelf.id, {}).rules[0];
+    expect(rule.costWon).toBeNull();
   });
 });
 

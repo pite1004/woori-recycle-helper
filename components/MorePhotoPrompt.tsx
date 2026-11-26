@@ -63,8 +63,19 @@ export default function MorePhotoPrompt({
       </h1>
       <p className="mt-2 text-[15px] leading-relaxed text-muted">
         {found
-          ? `지금 후보는 ${names.join(", ")}예요. 한 장 더 찍으면 더 정확해요.`
-          : "다른 각도로 한 장 더 찍거나, 직접 골라 주세요."}
+          ? `지금 후보는 ${names.join(", ")}예요.`
+          : "사진만으로는 어떤 물건인지 알기 어려워요."}
+      </p>
+      <p
+        role="alert"
+        className="mt-3 rounded-xl border-2 border-danger-ink bg-danger-soft px-4 py-3 text-lg leading-snug font-bold text-danger-ink"
+      >
+        다른 각도에서 한 장 더 찍어 주세요
+        <span className="mt-0.5 block text-sm font-semibold">
+          {found
+            ? "한 장 더 있으면 AI가 더 정확하게 골라요."
+            : "어렵다면 아래 [직접 고르기]를 눌러 주세요."}
+        </span>
       </p>
 
       <div className="mt-4 flex gap-2">
